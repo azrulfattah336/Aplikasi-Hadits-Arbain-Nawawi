@@ -14,10 +14,23 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Hadist Arbain',
 
-      theme: ThemeData.dark(
+      theme: ThemeData(
         useMaterial3: true,
         brightness: Brightness.dark,
         colorSchemeSeed: Colors.green,
+
+        scaffoldBackgroundColor: const Color(0xFF0F172A),
+
+        textTheme: const TextTheme(
+        titleLarge: TextStyle(fontWeight: FontWeight.bold),
+        ),
+
+        appBarTheme: const AppBarTheme(
+        backgroundColor: Color(0xFF22C55E),
+        foregroundColor: Colors.white,
+        elevation: 0,
+        centerTitle: true,
+        ),
       ),
 
       home: const HomeScreen(),
