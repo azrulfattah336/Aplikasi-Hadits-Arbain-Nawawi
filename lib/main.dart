@@ -14,8 +14,12 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Hadist Arbain',
 
-      theme: ThemeData.dark(),
-      
+      theme: ThemeData.dark(
+        useMaterial3: true,
+        brightness: Brightness.dark,
+        colorSchemeSeed: Colors.green,
+      ),
+
       home: const HomeScreen(),
     );
   }
