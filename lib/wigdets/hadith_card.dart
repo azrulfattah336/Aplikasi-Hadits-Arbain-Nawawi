@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/hadith.dart';
+import '../screens/detail_screen.dart';
 
 class HadithCard extends StatelessWidget {
   final Hadith hadith;
@@ -14,6 +15,15 @@ class HadithCard extends StatelessWidget {
     return Card(
       margin: const EdgeInsets.all(10),
       child: ListTile(
+
+      onTap: () {
+        Navigator.push(
+          context,
+             MaterialPageRoute(
+               builder: (_) => DetailScreen(hadith: hadith),
+             ),
+          );
+        },
         title: Text(hadith.title),
         subtitle: Text(
           hadith.translation,
