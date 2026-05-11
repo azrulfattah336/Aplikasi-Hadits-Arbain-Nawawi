@@ -104,8 +104,10 @@ class HomeScreen extends StatefulWidget {
       selectedIndex: selectedIndex,
       onDestinationSelected: (index) {
         setState(() {
-          selectedIndex = index;
+         selectedIndex = index;
         });
+
+        loadBookmarks();
       },
 
       destinations: const [
