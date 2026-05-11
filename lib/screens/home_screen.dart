@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../data/hadith_data.dart';
 import '../wigdets/hadith_card.dart';
+import '../services/bookmark_service.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -10,8 +11,21 @@ class HomeScreen extends StatefulWidget {
     }
 
    class _HomeScreenState extends State<HomeScreen> {
+    int selectedIndex = 0;   
+    String searchQuery = "";
+    List<int> bookmarks = [];
 
-  String searchQuery = "";
+  @override
+  void initState() {
+    super.initState();
+    loadBookmarks();
+   }
+
+  void loadBookmarks() async {
+    bookmarks = await BookmarkService.getBookmarks();
+
+    setState(() {});
+   }
 
   @override
   Widget build(BuildContext context) {
@@ -20,43 +34,92 @@ class HomeScreen extends StatefulWidget {
       .toLowerCase()
       .contains(searchQuery.toLowerCase());
     }).toList();
+    final bookmarkData =
+    hadithList.where((h) => bookmarks.contains(h.id)).toList();
+    
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Hadits Arbain Nawawi"),
-      ),
+        title: Text(
+          selectedIndex == 0
+              ? "Hadits Arbain Nawawi"
+              : "Bookmark",
+            ),
+          ),
 
-      body: Column(
+      body: selectedIndex == 0
+    ? Column(
         children: [
+          Padding(
+            padding: const EdgeInsets.all(10),
+            child: TextField(
+              decoration: const InputDecoration(
+                hintText: "Cari hadits...",
+                border: OutlineInputBorder(),
+                prefixIcon: Icon(Icons.search),
+              ),
 
-         Padding(
-           padding: const EdgeInsets.all(10),
-           child: TextField(
-           decoration: const InputDecoration(
-           hintText: "Cari hadits...",
-           border: OutlineInputBorder(),
-           prefixIcon: Icon(Icons.search),
-           ),
+              onChanged: (value) {
+                setState(() {
+                  searchQuery = value;
+                });
+              },
+            ),
+          ),
 
-           onChanged: (value) {
-            setState(() {
-              searchQuery = value;
-            });
-          },
-        ),
-      ),
+          Expanded(
+            child: ListView.builder(
+              itemCount: filtered.length,
+              itemBuilder: (context, index) {
+                return HadithCard(
+                  hadith: filtered[index],
+                );
+              },
+            ),
+          ),
+        ],
+      )
 
-      Expanded(
+    : bookmarkData.isEmpty
+    ? const Center(
+        child: Text("Belum ada bookmark"),
+      )
+
+    : RefreshIndicator(
+        onRefresh: () async {
+          loadBookmarks();
+        },
+
         child: ListView.builder(
-          itemCount: filtered.length,
+          itemCount: bookmarkData.length,
+
           itemBuilder: (context, index) {
             return HadithCard(
-              hadith: filtered[index],
+              hadith: bookmarkData[index],
             );
           },
         ),
       ),
-    ],
-  ),
+
+    bottomNavigationBar: NavigationBar(
+      selectedIndex: selectedIndex,
+      onDestinationSelected: (index) {
+        setState(() {
+          selectedIndex = index;
+        });
+      },
+
+      destinations: const [
+        NavigationDestination(
+          icon: Icon(Icons.menu_book),
+          label: "Hadits",
+         ),
+
+         NavigationDestination(
+           icon: Icon(Icons.favorite),
+           label: "Bookmark",
+          ),
+        ],
+      ),
     );
   }
 }
