@@ -52,10 +52,37 @@ class HomeScreen extends StatefulWidget {
           Padding(
             padding: const EdgeInsets.all(10),
             child: TextField(
-              decoration: const InputDecoration(
-                hintText: "Cari hadits...",
-                border: OutlineInputBorder(),
-                prefixIcon: Icon(Icons.search),
+              decoration: InputDecoration(
+                hintText: "Cari Hadits...",
+               hintStyle: const TextStyle(
+                  color: Colors.grey,
+                ),
+
+                prefixIcon: const Icon(
+                  Icons.search,
+                  size: 30,
+                ),
+
+                filled: true,
+                fillColor: const Color(0xFF1A1A1A),
+
+                contentPadding: const EdgeInsets.symmetric(
+                  vertical: 20,
+                ),
+
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(40),
+                  borderSide: BorderSide(
+                    color: Colors.grey.shade800,
+                  ),
+                ),
+
+                enabledBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(40),
+                  borderSide: BorderSide(
+                    color: Colors.grey.shade800,
+                  ),
+                ),
               ),
 
               onChanged: (value) {
