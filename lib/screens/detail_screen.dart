@@ -70,8 +70,8 @@ Widget build(BuildContext context) {
                 color: Colors.green.shade800,
                 borderRadius: BorderRadius.circular(20),
               ),
-              child: const Text(
-                "HADITS ${1}",
+              child: Text(
+                "HADITS ${widget.hadith.id}",
                 style: TextStyle(
                   fontSize: 12,
                   fontWeight: FontWeight.bold,
@@ -133,18 +133,6 @@ Widget build(BuildContext context) {
 
           const SizedBox(height: 20),
 
-          const Align(
-            alignment: Alignment.centerRight,
-
-            child: Text(
-              "(HR. Bukhari dan Muslim)",
-
-              style: TextStyle(
-                fontStyle: FontStyle.italic,
-                color: Colors.grey,
-              ),
-            ),
-          ),
         ],
       ),
     ),
