@@ -38,43 +38,231 @@ class _DetailScreenState extends State<DetailScreen> {
 Widget build(BuildContext context) {
   return Scaffold(
     appBar: AppBar(
-      title: Text(widget.hadith.title),
+  title: const Text("Detail Hadits"),
 
-      actions: [
-        IconButton(
-          icon: Icon(
-            isFavorite
-                ? Icons.favorite
-                : Icons.favorite_border,
+  backgroundColor: const Color(0xFF065F46),
+
+  actions: [
+
+    IconButton(
+      icon: Icon(
+        isFavorite
+            ? Icons.bookmark
+            : Icons.bookmark_border,
+      ),
+
+      onPressed: toggleBookmark,
+    ),
+  ],
+),
+
+    body: ListView(
+      padding: const EdgeInsets.all(16),
+      children: [
+        Row(
+          children: [
+            Container(
+              padding: const EdgeInsets.symmetric(
+                horizontal: 10,
+                vertical: 4,
+              ),
+              decoration: BoxDecoration(
+                color: Colors.green.shade800,
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: const Text(
+                "HADITS ${1}",
+                style: TextStyle(
+                  fontSize: 12,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+
+        const SizedBox(width: 10),
+
+        const Text(
+          "ARBA'IN NAWAWI",
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            color: Colors.grey,
           ),
-
-          onPressed: toggleBookmark,
-        )
+        ),
       ],
     ),
 
-    body: Padding(
-      padding: const EdgeInsets.all(16),
+    const SizedBox(height: 20),
+
+    Text(
+      widget.hadith.title,
+
+      style: const TextStyle(
+        fontSize: 34,
+        fontWeight: FontWeight.bold,
+      ),
+    ),
+
+    const SizedBox(height: 20),
+
+    Container(
+      padding: const EdgeInsets.all(24),
+
+      decoration: BoxDecoration(
+        color: const Color(0xFF1A1A1A),
+
+        borderRadius: BorderRadius.circular(20),
+
+        border: Border.all(
+          color: Colors.grey.shade800,
+        ),
+      ),
+
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
 
           Text(
             widget.hadith.arab,
+
             textAlign: TextAlign.right,
-            style: const TextStyle(fontSize: 22),
+
+            style: const TextStyle(
+              fontSize: 32,
+              height: 2,
+            ),
           ),
 
           const SizedBox(height: 20),
 
-          Text(widget.hadith.translation),
+          const Align(
+            alignment: Alignment.centerRight,
 
-          const SizedBox(height: 20),
+            child: Text(
+              "(HR. Bukhari dan Muslim)",
 
-          Text(widget.hadith.explanation),
+              style: TextStyle(
+                fontStyle: FontStyle.italic,
+                color: Colors.grey,
+              ),
+            ),
+          ),
         ],
       ),
     ),
+
+    const SizedBox(height: 20),
+
+    // TERJEMAHAN
+    Container(
+      padding: const EdgeInsets.all(20),
+
+      decoration: BoxDecoration(
+        color: const Color(0xFF1A1A1A),
+
+        borderRadius: BorderRadius.circular(20),
+
+        border: Border.all(
+          color: Colors.grey.shade800,
+        ),
+      ),
+
+      child: Column(
+        crossAxisAlignment:
+            CrossAxisAlignment.start,
+
+        children: [
+
+          Row(
+            children: const [
+
+              Icon(
+                Icons.translate,
+                color: Colors.green,
+              ),
+
+              SizedBox(width: 10),
+
+              Text(
+                "TERJEMAHAN",
+
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ],
+          ),
+
+          SizedBox(height: 20),
+
+          Text(
+            widget.hadith.translation,
+
+            style: const TextStyle(
+              height: 1.8,
+              fontSize: 16,
+            ),
+          ),
+        ],
+      ),
+    ),
+
+    const SizedBox(height: 20),
+
+    Container(
+      padding: const EdgeInsets.all(20),
+
+      decoration: BoxDecoration(
+        color: const Color(0xFF1A1A1A),
+
+        borderRadius: BorderRadius.circular(20),
+
+        border: Border.all(
+          color: Colors.grey.shade800,
+        ),
+      ),
+
+      child: Column(
+        crossAxisAlignment:
+            CrossAxisAlignment.start,
+
+        children: [
+
+          Row(
+            children: const [
+
+              Icon(
+                Icons.menu_book,
+                color: Colors.green,
+              ),
+
+              SizedBox(width: 10),
+
+              Text(
+                "KANDUNGAN HADITS",
+
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ],
+          ),
+
+          const SizedBox(height: 20),
+
+          Text(
+            widget.hadith.explanation,
+
+            style: const TextStyle(
+              height: 1.8,
+              fontSize: 16,
+            ),
+          ),
+        ],
+      ),
+    ),
+
+    const SizedBox(height: 30),
+    ],
+   ),
   );
-}
+ }
 }
