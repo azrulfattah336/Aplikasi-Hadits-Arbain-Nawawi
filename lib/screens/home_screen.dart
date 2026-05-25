@@ -118,7 +118,6 @@ class HomeScreen extends StatefulWidget {
 
         child: ListView.builder(
           itemCount: bookmarkData.length,
-
           itemBuilder: (context, index) {
             return HadithCard(
               hadith: bookmarkData[index],
@@ -127,28 +126,47 @@ class HomeScreen extends StatefulWidget {
         ),
       ),
 
-    bottomNavigationBar: NavigationBar(
-      selectedIndex: selectedIndex,
-      onDestinationSelected: (index) {
-        setState(() {
-         selectedIndex = index;
-        });
+   bottomNavigationBar: Container(
+     decoration: const BoxDecoration(
+       border: Border(
+         top: BorderSide(
+           color: Colors.white12,
+           width: 1.5,
+         ),
+       ),
+     ),
 
+     child: BottomNavigationBar(
+      currentIndex: selectedIndex,
+      onTap: (index) {
+        setState(() {
+          selectedIndex = index;
+        });
         loadBookmarks();
       },
 
-      destinations: const [
-        NavigationDestination(
-          icon: Icon(Icons.menu_book),
-          label: "Hadits",
-         ),
+      backgroundColor: const Color(0xFF111111),
+      elevation: 0,
+      selectedItemColor: const Color(0xFF00E5A8),
+      unselectedItemColor: Colors.grey,
+      type: BottomNavigationBarType.fixed,
+      selectedFontSize: 12,
+      unselectedFontSize: 11,
+      items: const [
+        BottomNavigationBarItem(
+          icon: Icon(Icons.home_outlined),
+          activeIcon: Icon(Icons.home),
+          label: "Home",
+        ),
 
-         NavigationDestination(
-           icon: Icon(Icons.favorite),
-           label: "Bookmark",
-          ),
-        ],
-      ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.bookmark_border),
+          activeIcon: Icon(Icons.bookmark),
+          label: "Bookmarks",
+         ),
+       ],
+     ),
+   ),
     );
   }
 }
