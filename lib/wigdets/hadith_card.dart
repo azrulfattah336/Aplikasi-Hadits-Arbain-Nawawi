@@ -72,8 +72,7 @@ class HadithCard extends StatelessWidget {
             ),
 
             const SizedBox(width: 16),
-
-            // TEXT
+            
             Expanded(
               child: Column(
                 crossAxisAlignment:
