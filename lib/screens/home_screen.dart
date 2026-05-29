@@ -11,7 +11,8 @@ class HomeScreen extends StatefulWidget {
     }
 
    class _HomeScreenState extends State<HomeScreen> {
-    int selectedIndex = 0;   
+    int selectedIndex = 0; 
+    bool showAllHadith = false;  
     String searchQuery = "";
     List<int> bookmarks = [];
 
@@ -94,17 +95,155 @@ class HomeScreen extends StatefulWidget {
           ),
 
           Expanded(
-            child: ListView.builder(
-              itemCount: filtered.length,
-              itemBuilder: (context, index) {
-                return HadithCard(
-                  hadith: filtered[index],
-                );
-              },
-            ),
-          ),
-        ],
-      )
+            child: ListView(
+              children: [      
+                ...filtered.take(10).map(
+                  (hadith) => HadithCard(
+                    hadith: hadith,
+                  ),
+                ),
+      
+                Container(
+                  margin: const EdgeInsets.all(16),       
+
+                  decoration: BoxDecoration(
+                    borderRadius:
+                        BorderRadius.circular(24),
+
+                  image: const DecorationImage(
+                    image: AssetImage(
+                      "images/islamic_bg1.png",
+                    ),
+
+                    fit: BoxFit.cover,
+                  ),
+                ),
+
+                child: Container(
+                  padding: const EdgeInsets.all(24),
+
+                  decoration: BoxDecoration(
+                    borderRadius:
+                        BorderRadius.circular(24),
+
+                  gradient: LinearGradient(
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
+
+                    colors: [
+                    Colors.black.withOpacity(0.7),
+                    Colors.black.withOpacity(0.3),
+                    ],
+                  ),
+                ),
+
+                child: Column(
+                  crossAxisAlignment:
+                      CrossAxisAlignment.start,
+
+                  mainAxisAlignment:
+                      MainAxisAlignment.center,
+
+                  children: [
+                    const Text(
+                      "Mutiara Hikmah",
+                      style: TextStyle(
+                        color: Colors.greenAccent,
+                        fontWeight:
+                            FontWeight.bold,
+                      ),
+                    ),
+
+                    const SizedBox(height: 14),
+
+                    const Text(
+                      "\"Amal itu tergantung niatnya.\"",
+
+                      style: TextStyle(
+                        fontSize: 34,
+                        fontWeight:
+                            FontWeight.bold,
+                        height: 1.2,
+                      ),
+                    ),
+
+                    const SizedBox(height: 14),
+
+                    Container(
+                      width: 90,
+                      height: 2,
+                      color: Colors.greenAccent,
+                    ),
+
+                    const SizedBox(height: 10),
+
+                    const Text(
+                     "HR. Bukhari & Muslim",
+
+                     style: TextStyle(
+                       color: Colors.greenAccent,
+                       fontSize: 16,
+                     ),
+                   ),
+                 ],
+               ),
+             ),
+           ),
+      
+           if (!showAllHadith)
+             Padding(
+               padding: const EdgeInsets.only(
+                 left: 70,
+                 right: 70,
+                 bottom: 30,
+               ),
+
+               child: ElevatedButton(
+                 style: ElevatedButton.styleFrom(
+                   backgroundColor:
+                       Colors.grey.shade800,
+
+                   foregroundColor: Colors.white,
+
+                   padding:
+                       const EdgeInsets.symmetric(
+                     vertical: 18,
+                   ),
+
+                   shape: RoundedRectangleBorder(
+                     borderRadius:
+                        BorderRadius.circular(30),
+                   ),
+                 ),
+
+                 onPressed: () {
+                   setState(() {
+                     showAllHadith = true;
+                   });
+                 },
+
+                 child: const Text(
+                   "LIHAT SEMUA 42 HADITS",
+
+                   style: TextStyle(
+                     fontWeight:
+                         FontWeight.bold,
+                   ),
+                 ),
+               ),
+             ),
+      
+           if (showAllHadith)
+             ...filtered.skip(10).map(
+               (hadith) => HadithCard(
+                 hadith: hadith,
+               ),
+             ),
+           ],
+         ),
+       ),
+     ],
+    )
 
     : bookmarkData.isEmpty
     ? const Center(
