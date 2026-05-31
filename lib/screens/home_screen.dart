@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../data/hadith_data.dart';
 import '../wigdets/hadith_card.dart';
 import '../services/bookmark_service.dart';
+import 'search_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -43,6 +44,8 @@ class HomeScreen extends StatefulWidget {
         title: Text(
           selectedIndex == 0
               ? "Hadits Arbain Nawawi"
+              : selectedIndex == 1
+              ? "Search"
               : "Bookmark",
             ),
           ),
@@ -53,6 +56,12 @@ class HomeScreen extends StatefulWidget {
           Padding(
             padding: const EdgeInsets.all(10),
             child: TextField(
+              readOnly: true,
+            onTap: () {
+              setState(() {
+                selectedIndex = 1;
+              });
+            },
               decoration: InputDecoration(
                 hintText: "Cari Hadits...",
                hintStyle: const TextStyle(
@@ -245,6 +254,9 @@ class HomeScreen extends StatefulWidget {
      ],
     )
 
+    : selectedIndex == 1
+    ? const SearchScreen()
+
     : bookmarkData.isEmpty
     ? const Center(
         child: Text("Belum ada bookmark"),
@@ -296,6 +308,11 @@ class HomeScreen extends StatefulWidget {
           icon: Icon(Icons.home_outlined),
           activeIcon: Icon(Icons.home),
           label: "Home",
+        ),
+
+        BottomNavigationBarItem(
+          icon: Icon(Icons.search),
+          label: "Search",
         ),
 
         BottomNavigationBarItem(
