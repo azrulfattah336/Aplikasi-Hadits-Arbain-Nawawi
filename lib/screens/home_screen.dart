@@ -52,60 +52,59 @@ class HomeScreen extends StatefulWidget {
 
       body: selectedIndex == 0
     ? Column(
-        children: [
-          Padding(
-            padding: const EdgeInsets.all(10),
-            child: TextField(
-              readOnly: true,
-            onTap: () {
-              setState(() {
-                selectedIndex = 1;
-              });
-            },
-              decoration: InputDecoration(
-                hintText: "Cari Hadits...",
-               hintStyle: const TextStyle(
-                  color: Colors.grey,
-                ),
-
-                prefixIcon: const Icon(
-                  Icons.search,
-                  size: 30,
-                ),
-
-                filled: true,
-                fillColor: const Color(0xFF1A1A1A),
-
-                contentPadding: const EdgeInsets.symmetric(
-                  vertical: 20,
-                ),
-
-                border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(40),
-                  borderSide: BorderSide(
-                    color: Colors.grey.shade800,
-                  ),
-                ),
-
-                enabledBorder: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(40),
-                  borderSide: BorderSide(
-                    color: Colors.grey.shade800,
-                  ),
-                ),
-              ),
-
-              onChanged: (value) {
-                setState(() {
-                  searchQuery = value;
-                });
-              },
-            ),
-          ),
-
+        children: [         
           Expanded(
             child: ListView(
-              children: [      
+              children: [    
+                Padding(
+                  padding: const EdgeInsets.all(10),
+                  child: TextField(
+                    readOnly: true,
+                  onTap: () {
+                    setState(() {
+                      selectedIndex = 1;
+                    });
+                  },
+                   decoration: InputDecoration(
+                     hintText: "Cari Hadits...",
+                    hintStyle: const TextStyle(
+                     color: Colors.grey,
+                  ),
+
+                  prefixIcon: const Icon(
+                    Icons.search,
+                    size: 30,
+                  ),
+
+                  filled: true,
+                  fillColor: const Color(0xFF1A1A1A),
+
+                  contentPadding: const EdgeInsets.symmetric(
+                    vertical: 20,
+                  ),
+
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(40),
+                    borderSide: BorderSide(
+                      color: Colors.grey.shade800,
+                    ),
+                  ),
+
+                  enabledBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(40),
+                    borderSide: BorderSide(
+                      color: Colors.grey.shade800,
+                    ),
+                  ),
+                ),
+
+                  onChanged: (value) {
+                    setState(() {
+                      searchQuery = value;
+                    });
+                  },
+                ),
+              ),  
                 ...filtered.take(10).map(
                   (hadith) => HadithCard(
                     hadith: hadith,
