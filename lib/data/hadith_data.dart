@@ -210,4 +210,259 @@ Diriwayatkan oleh al Bukhari.""",
   explanation: """Hadist ini menegaskan kedudukan agung sifat malu sebagai warisan ajaran para nabi terdahulu dan pilar utama akhlak mulia dalam Islam. Kalimat "berbuatlah sesukamu" pada hadist ini mengandung dua makna penting. Pertama, sebagai ancaman atau peringatan keras bahwa orang yang telah kehilangan rasa malu tidak akan segan melakukan berbagai maksiat dan kelak pasti akan menanggung balasannya dari Allah. Kedua, sebagai tolok ukur beramal, yakni jika suatu perbuatan itu baik dan tidak bertentangan dengan syariat (sehingga tidak ada alasan untuk malu melakukannya), maka silakan dilakukan. Intinya, rasa malu adalah benteng pertahanan jiwa yang mencegah manusia dari perbuatan buruk dan tercela.""",
 ),
 
+Hadith(
+  id: 21,
+  title: """Iman Kepada Allah""",
+  arab: """عَنْ أَبِيْ عَمْرٍو –وَ قِيْلَ أَبِي عَمْرَةَ- سُفْيَانَ بْنِ عَبْدِ اللهِ رضي الله عنه قَالَ: قُلْتُ: يَا رَسُولَ اللهِ قُلْ لِيْ فِيْ الإِسْلاَمِ قَوْلاً لاَ أَسْأَلُ عَنْهُ أَحَدًا غَيْرَكَ. قَالَ: قُلْ أَمَنْتُ بِاللهِ ثُمَّ اسْتَقِمْ. رواه مسلم.""",
+  translation: """Dari Abu ‘Amr –ada yang mengatakan Abu ‘Amrah- Sufyan bin Abdillah radhiyallahu ‘anhuma dia berkata: Aku berkata: ”Ya Rasulullah, beritahukan kepadaku satu perkataan dalam Islam, yang aku tidak akan bertanya lagi kepada kepada seorangpun selain engkau.” Beliau shallallahu ‘alaihi wa sallam bersabda: ”Katakanlah: “Aku beriman kepada Allah”, kemudian istiqamahlah.”(HR. Muslim)
+
+Diriwayatkan oleh Muslim, dan ada pula riwayat dengan lafadz:   فاسْتَقِمْ  ”maka istiqamahlah”""",
+  explanation: """Hadist ini merangkum intisari seluruh ajaran Islam ke dalam dua fondasi utama yang tidak dapat dipisahkan, yaitu iman dan istiqamah. Pertama, landasan pokok agama berupa keyakinan dan ikrar tauhid yang tulus kepada Allah. Kedua, kewajiban untuk berlaku istiqamah (konsisten dan teguh pendirian) dalam mempertahankan keimanan tersebut melalui ketaatan beribadah, menjalankan perintah, dan menjauhi larangan-Nya. Pesan utama hadist ini menegaskan bahwa keimanan di dalam hati dan lisan harus senantiasa dibuktikan dengan amal perbuatan yang nyata dan berkesinambungan hingga akhir hayat.""",
+),
+
+Hadith(
+  id: 22,
+  title: """Jalan Menuju Surga""",
+  arab: """.
+عَنْ أَبِيْ عَبْدِ اللهِ جَابِر بْنِ عَبْدِ اللهِ الأَنْصَارِيِّ –رَضِيَ اللهُ عَنْهُمَا- أَنَّ رَجُلاً سَأَلَ رَسُولَ اللهِ صلى الله عليه وسلم فَقَالَ: يَارَسُولَ اللهِ أَرَأَيْتَ إِذَا صَلَّيْتُ الصَّلَوَاتِ الْمَكْتُوبَاتِ، وَصُمْتُ رَمَضَانَ، وَأَحْلَلْتُ الْحَلاَلَ وَحَرَّمْتُ الْحَرَامَ، وَلَمْ أَزِدْ عَلَى ذَلِكَ شَيْئًا أَأَدْخُلُ الَجَنَّةَ؟ قَالَ: نَعَمْ، قَالَ: وَاللهِ لاَ أَزِيْدُ عَلَى ذَلِكَ شَيْئًا. رواه مسلم. ومعنى حرمت الحرام : اجتنبته. ومعنى أحللت الحلال : فعلته معتقدا حله""",
+  translation: """“Dari Abu ‘Abdillah Jabir bin ‘Abdillah  Al Anshari radhiyallahu ‘anhu, bahwa ada seseorang yang bertanya kepada Rasulullah shallallahu ‘alaihi wa sallam, dia berkata: ”Wahai Rasulullah, apa pendapatmu jika aku mengerjakan shalat-shalat wajib (lima waktu), puasa Ramadhan, aku menghalalkan apa yang halal dan aku mengharamkan apa yang haram serta aku tidak akan menambahnya dengan sesuatupun selain itu, apakah aku akan masuk jannah?” Beliau menjawab:”Ya.” Dia berkata: Demi Allah I, aku tidak akan menambahnya dengan sesuatupun.” (HR. Muslim)
+
+Makna :”Aku mengharamkan apa yang haram” adalah aku menjauhinya, sedangkan makna ”menghalalkan apa yang halal” adalah aku akan mengerjakannya dengan meyakini kehalalannya.
+
+Diriwayatkan oleh  Muslim""",
+  explanation: """Hadist ini memberikan kabar gembira sekaligus menjelaskan amalan pokok yang menjadi syarat utama seseorang untuk masuk surga. Kandungan utamanya menegaskan bahwa komitmen penuh dalam menjalankan kewajiban dasar agama, seperti shalat lima waktu dan puasa Ramadhan, serta ketegasan dalam mematuhi batasan syariat—yakni melakukan amalan yang halal dan mutlak menjauhi segala yang haram—sudah menjadi jaminan yang cukup untuk meraih jannah. Hal ini menunjukkan kemurahan rahmat Allah dan mudahnya syariat Islam, di mana pelaksanaan ibadah fardhu yang diiringi dengan ketaatan meninggalkan maksiat merupakan kunci keselamatan di akhirat, sekalipun seseorang tersebut belum mampu memperbanyak amalan-amalan sunnah.""",
+),
+
+Hadith(
+  id: 23,
+  title: """Suci Sebagian Iman""",
+  arab: """
+عَنْ أَبِي مَالِكٍ الْحَارِثِ بْنِ عَاصِمٍ الأَشْعَرِيِّ رضي الله عنه قَالَ: قَالَ رَسُوْلُ اللهِ صلى الله عليه وسلم: الطُّهُوْرُ شَطْرُ الإِيْمَانِ، وَالْحَمْدُ للهِ تَمْلأُ الْمِيْزَانَ، وَسُبْحَانَ اللهِ وَالْحَمْدُ للهِ تَمْلأَنِ –أَوْ تَمْلأُ- مَا بَيْنَ السَّمَاءِ وَالأَرْضِ، وَالصَّلاَةُ نُوْرٌ وَالصَّدَقَةُ بُرْهَانٌ وَالصَّبْرُ ضِيَاءٌ وَالْقُرْآنُ حُجَّةٌ لَكَ أَوْ عَلَيْكَ، كُلُّ النَّاسِ يَغْدُو فَبَائِعُ نفْسَهُ فَمُقْتِقُهَا أَوْ مُوْبِقُهَا. رواه مسلم""",
+  translation: """Dari Abu Malik Al Harits bin ‘Ashim Al Asy’ari radhiyallahu ‘anhu, dia berkata: Rasulullah shallallahu ‘alaihi wa sallam bersabda: ”Kesucian itu separuh dari iman, (ucapan) Alhamdulillah (Segala puji hanya bagi Allah) memenuhi timbangan, (ucapannya) Subhanallah (Maha Suci Allah) dan Alhamdulillah (Segala Puji hanya bagi Allah) keduanya memenuhi apa yang ada di antara langit dan bumi, shalat adalah cahaya, sedekah adalah burhan (bukti), sabar itu dhiya’ (cahaya yang disertai rasa panas). Al Qur’an itu bisa menjadi hujjah bagimu atau hujjah atasmu. Setiap orang berangkat di pagi hari sampai menjual dirinya sehingga dia membebaskannya atau membinasakannya.” (HR Muslim)
+
+Diriwayatkan oleh  Muslim.""",
+  explanation: """Hadist ini merangkum amalan-amalan utama penyempurna iman. Ditegaskan bahwa kesucian lahir dan batin adalah separuh dari iman, serta besarnya pahala dzikir yang mampu memenuhi timbangan amal. Hadist ini juga menjelaskan kedudukan shalat sebagai cahaya, sedekah sebagai bukti kebenaran iman, dan kesabaran sebagai penerang jiwa saat ujian. Terakhir, diingatkan bahwa Al-Qur'an akan menjadi pembela atau penuntut kita di akhirat, dan setiap amal harian kitalah yang menentukan apakah kita membebaskan atau justru membinasakan diri sendiri.""",
+),
+
+Hadith(
+  id: 24,
+  title: """Larangan Menzhalimi""",
+  arab: """
+عَنْ أَبِى ذَرٍّ الْغِفَارِيّ رضي الله عنه عَنِ النَّبِيِّ صلى الله عليه وسلم فِيْمَا يَرْوِيْهِ عَنْ رَبِّهِ سبحانه وتعالى أَنَّهُ قَالَ: يَاعِبَادِي إِنِّي حَرَّمْتُ الظُّلْمَ عَلَى نَفْسِي وَجَعَلْتُهُ بَيْنَكُمْ مُحَرَّمًا فَلاَ تَظَالَمُوا, يَاعِبَادِي كُلُّكُمْ ضَالٌّ إِلاَّ مَنْ هَدَيْتُهُ فَاسْتَهْدُونِي أَهْدِكُمْ, يَاعِبَادِي كُلُّكُمْ جَائِعٌ إِلاَّ مَنْ أَطْعَمْتُهُ فَاسْتَطْعِمُونِي أُطْعِمْكُمْ, يَاعِبَادِي كُلُّكُمْ عَار إِلاَّ مَنْ كَسَوْتُهُ فَاسْتَكْسُونِي أَكْسُكُمْ, يَاعِبَادِي إِنَّكُمْ تُخْطِئُونَ بِاللَّيْلِ وَالنَّهَارِ وَأَنَا أَغْفِرُ الذُّنُوبَ جَمِيْعًا فَاسْتَغْفِرُونِي أَغْفِرْ لَكُمْ, يَاعِبَادِي إِنَّكُمْ لَنْ تَبْلُغُوا ضُرِّي فَتَضُرُّونِي وَلَنْ تَبْلُغُوا نَفْعِي فَتَنْفَعُونِي, يَاعِبَادِي لَوْ أَنَّ أَوَّلَكُمْ وَآخِرَكُمْ وَإِنْسَكُمْ وَجِنَّكُمْ كَانُوا عَلَى أَتْقَى قَلْبِ رَجُلٍ وَاحِدٍ مِنْكُمْ مَا زَادَ ذَلِكَ فِي مُلْكِي شَيْئًا, يَاعِبَادِي لَوْ أَنَّ أَوَّلَكُمْ وَآخِرَكُمْ وَإِنْسَكُمْ وَجِنَّكُمْ كَانُوا عَلَى أَفْجَرِ قَلْبِ رَجُلٍ وَاحِدٍ مِنْكُمْ مَانَقَصَ ذَلِكَ مِنْ مُلْكِي شَيْئًا, يَاعِبَادِي لَوْ أَنَّ أَوَّلَكُمْ وَآخِرَكُمْ وَإِنْسَكُمْ وَجِنَّكُمْ قَامُوا فِي صَعِيْدٍ وَاحِدٍ فَسَأَلُونِي فَأَعْطَيْتُ كُلَّ إِنْسَانٍ مَسْأَلَتَهُ مَانَقَصَ ذَلِكَ مِمَّا عِنْدِي إِلاَّ كَمَا يَنْقُصُ المِخْيَطُ إِذَا أُدْخِلَ البَحْرَ, يَاعِبَادِي إِنَّمَا هِيَ أَعْمَالُكُمْ أُحْصِيْهَا لَكُمْ ثُمَّ أُوَفِّيْكُمْ إِيَّاهَا فَمَنْ وَجَدَ خَيْرًا فَلْيَحْمَدِ اللهَ وَمَنْ وَجَدَ غَيْرَ ذَلِكَ فَلاَ يَلُومَنَّ إِلاَّ نَفْسَهُ. رَوَاهُ مُسْلِمٌ""",
+  translation: """Dari Abu Dzar Al-Ghifary radhiyallahu ‘anhu dari Nabi shallallahu ‘alaihi wa sallam, dalam hadits qudsi yang beliau shallallahu ‘alaihi wa sallam riwayatkan dari Rabb-nya, bahwasanya Dia subhanahu wa ta’ala berfirman: ”Wahai hamba-hamba-Ku, sesungguhnya Aku telah mengharamkan kezhaliman atas diri-Ku dan Akupun jadikan kezhaliman itu diantara kalian sebagai sesuatu yang haram. Maka janganlah kalian saling menzhalimi. Wahai hamba-hamba-Ku, kalian semua adalah sesat kecuali yang Aku beri petunjuk, maka mintalah petunjuk kepada-Ku niscaya Aku akan menunjukimu. Wahai hamba-hamba-Ku, kalian semua kelaparan kecuali yang telah Aku beri makan, maka mintalah makanan kepada-Ku pasti Aku akan memberi kalian makanan. Wahai hamba-hamba-Ku, sesungguhnya kalian semua telanjang kecuali yang Aku beri pakaian, maka mintalah pakaian kepada-Ku pasti Aku akan memberi kalian pakaian. Wahai hamba-hamba-Ku, sesungguhnya kalian selalu berbuat salah siang dan malam dan Aku senantiasa mengampuni semua perbuatan dosa, maka mintalah ampunan kepada-Ku. Wahai hamba-hamba-Ku, sesungguhnya kalian tidak akan memudharatkan-Ku dan tidak akan pula memberi manfaat kepada-Ku. Wahai hamba-hamba-Ku, kalau seandainya orang-orang pertama di antara kalian dan orang-orang terakhir (belakangan) baik manusia atau jin semua berada pada satu hati yang paling bertakwa diantara kalian, tidaklah hal itu menambah atas kerajaan (kekuasaan)-Ku sedikitpun. Wahai hamba-hamba-Ku, jika orang-orang yang pertama dan terakhir dari kalian semua berada pada satu hati yang paling durhaka diantara kalian, tidaklah hal itu akan mengurangi kerajaan (kekuasaan)-Ku sedikitpun. Wahai hamba-hamba-Ku,sesungguhnya jika orang-orang yang pertama dan terakhir dari kalian baik manusia dan jin berdiri di satu tempat tinggi dan luas lalu meminta (kebutuhannya) kepada-Ku, kemudian Aku memberikan setiap orang apa yang dimintanya, maka tidaklah hal itu mengurangi sedikitpun apa yang ada pada-Ku kecuali seperti berkurangnya (air laut yang menetes) yang diujung jarum jika dicelupkan kedalam lautan. Wahai hamba-hamba-Ku, sesungguhnya semua itu adalah amalan-amalan kalian yang Aku catat untuk kalian, kemudian Aku sempurnakan (balasannya) untuk kalian.Maka bagi yang mendapatkan kebaikan, hendaklah dia memuji Allah I dan bagi yang mendapatkan selain itu, maka janganlah ia mencela kecuali dirinya sendiri.” (HR. Muslim)
+
+Diriwayatkan oleh Muslim.""",
+  explanation: """Hadist qudsi ini menegaskan keagungan kekuasaan Allah dan kelemahan mutlak manusia. Pesan utamanya adalah larangan keras berbuat zhalim kepada siapapun, karena Allah sendiri telah mengharamkan kezhaliman atas diri-Nya. Hadist ini juga menjelaskan betapa bergantungnya manusia kepada Allah untuk mendapatkan petunjuk, rezeki, serta ampunan dosa. Ketaatan maupun kedurhakaan seluruh makhluk sama sekali tidak akan menambah atau mengurangi kebesaran dan kekayaan kerajaan Allah yang tidak terbatas. Pada akhirnya, setiap amalan perbuatan akan dicatat dan dibalas dengan adil, sehingga segala kebaikan yang didapat adalah karunia Allah yang wajib disyukuri, sedangkan keburukan murni akibat kesalahan dan kelalaian diri sendiri.""",
+),
+
+Hadith(
+  id: 25,
+  title: """Bentuk-Bentuk Sedekah""",
+  arab: """
+عَنْ أَبِيْ ذَرٍّ أَيْضًا:أَنَّ أُنَاسًا مِنْ أَصْحَابِ رَسُوْلِ اللَّهِ صلى الله عليه وسلم قَالُوا لِلنَّبِيِّ صلى الله عليه وسلم: يَارَسُوْلَ اللَّهِ ذَهَبَ أَهْلُ الدُّثُوْرِ بِالأُجُوْرِ, يُصَلُّوْنَ كَمَانُصَلِّيْ, وَيَصُوْمُوْنَ كَمَانَصُوْمُ, وَيَتَصَدَّقُوْنَ بِفُضُوْلِ أَمْوَالِهِمْ, قَالَ:(أَوَلَيْسَ قَدْجَعَلَ اللَّهُ لَكُمْ مَاتَصَدَّقُوْنَ, إِنّ َبِكُلِّ تَسْبِيْحَةٍ صَدَقَةً, وَكُلِّ تَكْبِيْرَةٍ صَدَقَةً, وَكُلِّ تَحْمِيْدَةٍ صَدَقَةً, وَكُلَّ تَهْلِيْلَةٍ صَدَقَةً, وَأَمْرٌ بِالْمَعْرُوْفِ صَدَقَةً, وَنَهْيٌ عَنِ الْمُنْكَرِ صَدَقَةً, وَفِيْ بُضْعِ أَحَدِكُمْ صَدَقَةً), قَالُوا:يَارَسُوْلَ اللَّهِ أَيَأْتِيْ أَحَدُنَاشَهْوَتَهُ وَيَكُوْنُ لَهُ فِيْهَا أَجْرٌ؟, قَالَ:(أَرَأَيْتُمْ لَوْ وَضَعَهَا فِيْ حَرَامٍ, أَكَانَ عَلَيْهِ فِيْهَا وِزْرٌ؟ فَكَذَالِكَ إِذَا وَضَعَهَا فِيْ الْحَلاَلِ كَانَ لَهُ أَجْرٌ).رَوَاهُ مُسْلِمٌ""",
+  translation: """Dari Abu Dzar radhiyallahu ‘anhu juga, bahwa ada sekelompok shahabat  berkata kepada Nabi shallallahu ‘alaihi wa sallam: ”Wahai Rasulullah, orang-orang kaya telah pergi membawa pahala-pahala mereka. Mereka shalat sebagaimana kami shalat, mereka berpuasa sebagaimana kami juga berpuasa dan mereka bersedekah dengan kelebihan harta mereka (sedangkan kami tidak bisa bersedekah).” Beliau shallallahu ‘alaihi wa sallam bersabda: “Bukankah Allah telah menjadikan buat kalian sesuatu untuk kalian bisa bersedekah dengannya? Sesungguhnya setiap tasbih itu adalah sedekah, dan setiap takbir itu adalah sedekah, dan setiap tahmid itu adalah sedekah, dan setiap tahlil itu adalah sedekah, memerintahkan kepada hal yang ma’urf itu adalah sedekah, mencegah dari hal yang mungkar itu adalah sedekah, dan dalam kemaluan kalian itu juga terdapat sedekah. Mereka berkata:”Wahai Rasulullah shallallahu ‘alaihi wa sallam, Apakah salah seorang dari kami jika menyalurkan syahwatnya (dengan benar) dia akan mendapatkan pahala?”Beliau bersabda:”Bagaimana pendapat kalian  jika disalurkan pada yang haram, bukankah dia berdosa? Maka demikian pula kalau disalurkan pada yang halal tentu dia memperoleh pahala.” (HR. Muslim)
+
+Diriwayatkan oleh muslim.""",
+  explanation: """Hadist ini menjelaskan betapa luasnya makna sedekah dan keadilan Allah dalam memberikan kesempatan beramal kepada seluruh hamba-Nya. Sedekah tidak hanya sebatas memberikan harta benda, sehingga orang yang tidak memiliki kelebihan harta pun tetap bisa meraih pahala yang melimpah. Setiap kalimat dzikir (tasbih, takbir, tahmid, tahlil), anjuran berbuat baik (amar ma'ruf), larangan berbuat buruk (nahi mungkar), hingga pemenuhan fitrah biologis melalui ikatan pernikahan yang halal, semuanya dinilai sebagai sedekah. Hal ini menegaskan bahwa segala bentuk kebaikan, serta niat dan perbuatan untuk menjauhi yang haram, merupakan ibadah yang bernilai pahala di sisi Allah.""",
+),
+
+Hadith(
+  id: 26,
+  title: """Sedekah Setiap Sendi""",
+  arab: """
+عَنْ أَبِي هُرَيْرَةَ رضي الله عنه قَالَ: قَالَ رَسُولُ اللهِ صلى الله عليه وسلم: كُلُّ سُلاَمَى مِنَ النَّاسِ عَلَيْهِ صَدَقَةٌ كُلُّ يَومٍ تَطْلُعُ فِيْهِ الشَّمْسُ: تَعْدِلُ بَيْنَ اثْنَيْنِ صَدَقَةٌ، وَتُعِيْنُ الرَّجُلَ فِي دَابَّتِهِ فَتَحْمِلُه عَلَيْهَا أَوْ تَرْفَعُ لَهُ عَلَيْهَا مَتَاعَهُ صَدَقَةٌ، وَالْكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ، وَبِكُلِّ خُطْوَةٍ تَمْشِيْهَا إِلَى الصَّلاةِ صَدَقَةٌ، وَتُمِيْطُ الأَذَى عَنِ الطَّرِيْقِ صَدَقَةٌ. رَوَاهُ الْبُخَارِيُّ وَمُسْلِمٌ""",
+  translation: """Dari Abu Hurairah radhiyallahu ‘anhu , ia berkata: Rasulullah shallallahu ‘alaihi wa sallam bersabda: ”Setiap persendian dari manusia itu ada sedekahnya pada setiap hari yang matahari terbit padanya. Berbuat adil antara dua orang adalah sedekah, menolong seseorang dalam urusan kendaraannya membantunya agar bisa menaiki kendaraannya atau engkau angkatkan barang-barangnya ke atas kendaraannya itu juga sedekah. Sebuah ucapan yang baik adalah sedekah, setiap langkah yang kamu ayunkan menuju tempat shalat adalah sedekah dan engkau menyingkirkan gangguan dari jalan adalah sedekah”. (HR. Bukhari dan Muslim)
+
+Diriwayatkan oleh Al Bukhari dan Muslim.""",
+  explanation: """Hadist ini mengajarkan kewajiban mensyukuri nikmat persendian tubuh setiap hari melalui sedekah. Sedekah di sini sangat luas, tidak harus berupa harta, melainkan melalui kebaikan sehari-hari, seperti: mendamaikan orang yang berselisih, menolong kesulitan orang lain, bertutur kata yang baik, berjalan menuju masjid untuk shalat, hingga sekadar menyingkirkan gangguan dari jalan.""",
+),
+
+Hadith(
+  id: 27,
+  title: """Hakikat Kebaikan""",
+  arab: """
+عَنِ النَّوَّاسِ بْنِ سَمْعَانَ رضي الله عنه، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ: اْلبِرُّ حُسْنُ الْخُلُقِ، وَالإِثْمُ مَا حَاكَ فِيْ نَفْسِكَ وَكَرِهْتَ أَنْ يَطَّلِعَ عَلَيْهِ النَّاسُ . رَوَاهُ مُسْلِمٌ. وَعَنْ وَابِصَةَ بْنِ مَعْبَدٍ رضي الله عنه ، قَالَ: أَتَيْتُ النبي صلى الله عليه وسلم ، فَقَالَ: جِئْت تَسْأَلُ عَنِ اْلبِرِّ ؟ قُلْتُ: نَعَمْ؛ قَالَ: اسْتَفْتِ قَلْبَكَ؛ اْلبِرُّ مَا اطْمَأَنَّتْ إِلَيْهِ النَّفْسُ وَاطْمَأَنَّ إِلَيْهِ اْلقَلْبُ، وَالإِثْمُ مَاحَاكَ فِي النَّفْسِ وَتَرَدَّدَ فِي الصَّدْرِ، وَإِنْ أَفْتَاكَ النَّاسُ وَأَفْتَوْكَ.
+حَدِيْثٌ حَسَنٌ، رَوَيْنَاهُ فِي مُسْنَدَيْ الإِمَامِين أَحْمَدَ بْنِ حَنْبَلٍ، وَالدَّارِمِي بِإِسْنَادٍ حَسَنٍ.""",
+  translation: """Dari Nawwas bin Sam’an radhiyallahu ‘anhu dari Nabi shallallahu ‘alaihi wa sallam beliau bersabda: “Kebaikan itu adalah akhlak yang baik, kejelekan (dosa) itu adalah sesuatu yang meresahkan jiwamu dan engkau benci apabila manusia mengetahuinya.” (HR. Muslim)
+
+Dari Wabishah bin Ma’bad radhiyallahu ‘anhu dia berkata: ‘Aku mendatangi Nabi shallallahu ‘alaihi wa sallam maka beliau shallallahu ‘alaihi wa sallam berkata: “Engkau datang untuk bertanya tentang kebaikan ?” Aku menjawab: “Ya,” Beliau shallallahu ‘alaihi wa sallam bersabda: “Mintalah fatwa kepada hatimu, karena kebaikan itu adalah sesuatu yang membuat jiwa dan hati merasa tenang, sedangkan kejelekan (dosa) itu adalah sesuatu yang meresahkan jiwa dan membimbangkan dada meskipun manusia telah berulang kali memberi fatwa kepadamu.” (Hadits ini hasan, kami meriwayatkannya dari musnad 2 Imam, yaitu Ahmad bin Hanbal dan Ad Darimi dengan sanad yang hasan).
+
+Diriwayatkan oleh Muslim.
+
+Diriwayatkan ahmad dan Ad Darimi.""",
+  explanation: """Hadis ini menjelaskan tolok ukur kebaikan dan dosa berdasarkan fitrah hati nurani manusia. Kebaikan sejati sangat erat kaitannya dengan akhlak yang mulia dan segala amal yang mendatangkan ketenangan batin.
+
+Sebaliknya, dosa adalah segala perbuatan yang memunculkan kegelisahan, keraguan di dalam dada, serta adanya rasa takut atau malu jika perbuatan tersebut diketahui oleh orang lain. Hadis ini juga menegaskan bahwa hati nurani seorang mukmin yang suci berfungsi sebagai penunjuk arah alami untuk mendeteksi keburukan, meskipun orang lain berusaha memberikan fatwa atau pembenaran atas perbuatan dosa tersebut.""",
+),
+
+Hadith(
+  id: 28,
+  title: """Taat Pada Penguasa""",
+  arab: """
+عَنْ أَبِي نَجِيْحٍ الْعِرْبَاضِ بِنْ سَارِيَةَ رضي الله عنه قَالَ: وَعَظَنَا رَسُولُ اللهِ صلى الله عليه وسلم مَوْعِظَةً وَجِلَتْ مِنْهَا الْقُلُبُ, وَذَرَفَتْ مِنْهِا الْعُيُونُ, فَقُلْنَا يَا رَسُولَ اللهِ, كَأَنَّهَا مَوْعِظَةُ مُوَدِّعٍ, فَأَوْصِنَا, قَالَ:” أُوْصِيْكُمْ بِتَقْوَى اللهِ عَزَّوَجَلَّ, وَالسَّمْعِ وَالطَّاعةِ, وَإِنْ تَأَمَّرَ عَلَيْكُمْ عَبْدٌ حَبَشِيٌّ, فَإِنَّهُ مَنْ يَعِشْ مِنْكُمْ فَسَيَرَى اخْتِلاَفًا كَثِيْرًا, فَعَلَيْكُمْ بِسُنَّتِي وَسُنَّةِ الْخُلَفَاءِ الرَّاشِدِيْنَ الْمَهْدِيِّينَ, عَضُّوْا عَلَيْهَا بِالنَّوَاجِذِ, وَإِيَّاكُمْ وَمُحْدَثَاتِ الأُمُورِ, فَإِنَّ كُلَّ بِدْعَةً ضَلاَلَةٌ.” رَوَاهُ التِّرْمِذِيُّ, وَقَالَ:حَدِيْثٌ حَسَنٌ صَحِيحٌ""",
+  translation: """Dari Abu Najih Irbadh bin Sariyah radhiyallahu ‘anhu, dia berkata: ‘Rasulullah shallallahu ‘alaihi wa sallam pernah memberikan nasehat kepada kami dengan sebuah nasehat yang menyebabkan hati bergetar dan air mata berlinang, lalu kami berkata: ‘Ya Rasulullah, seakan-akan ini adalah nasehat orang yang akan berpisah, maka berilah kami wasiat!
+
+Beliau bersabda: ”Aku wasiatkan kepada kalian untuk bertakwa kepada Allah, mendengar dan taat (kepada penguasa) meskipun kalian diperintah oleh seorang budak Habasyi. Dan sesungguhnya siapa di antara kalian yang masih hidup sepeninggalku niscaya ia akan melihat perselisihan yang banyak. Maka wajib atas kalian untuk berpegang teguh dengan sunnahku dan sunnah para khulafaur rasyidin yang mendapatkan petunjuk. Gigitlah sunnah tersebut dengan gigi geraham kalian, dan hati-hatilah kalian dari perkara yang diada-adakan, karena setiap bid`ah adalah sesat.” ( HR. Tirmidzi dan dia berkata bahwa hadits ini hasan shahih)
+
+Diriwayatkan oleh Abu Dawud dan At Tirmidzi, Ibnu Majah, Ahmad, Ad Darimi, At Thabrani dalam Al Kabir, Ibnu Hibban, Al Hakim dalam Al Mustadrak dan Al Baihaqi dalam Al Kubra (10/114).""",
+  explanation: """Hadist ini merupakan wasiat agung Rasulullah yang berisi panduan keselamatan bagi umat Islam dalam menghadapi perpecahan. Kandungan utamanya meliputi perintah untuk senantiasa bertakwa kepada Allah, serta kewajiban mendengar dan taat kepada pemimpin demi menjaga persatuan umat, terlepas dari status atau latar belakang pemimpin tersebut.
+
+Selain itu, hadist ini mengabarkan nubuat tentang akan banyaknya perselisihan umat di masa depan. Solusi mutlak untuk menghadapi perpecahan tersebut adalah kewajiban berpegang teguh pada Sunnah (ajaran) Nabi dan jalan para Khulafaur Rasyidin. Di akhir wasiat, terdapat peringatan keras untuk menjauhi bid'ah (perkara baru yang diada-adakan dalam urusan agama) karena setiap bid'ah itu adalah kesesatan.""",
+),
+
+Hadith(
+  id: 29,
+  title: """Pintu Kebaikan""",
+  arab: """
+عَنْ مُعَاذِ بْنِ جَبَلٍ رضي الله عنه قَالَ: قُلْتُ: يَا رَسُولَ اللهِ، أَخْبِرْنِي بِعَمَلٍ يُدْخِلُنِيْ الْجَنَّةَ، وَيُبَاعِدُنِي عَنِ النَّارِ، قَالَ : لَقَدْ سَأَلْتَنِي عَنْ عَظِيمٍ، وَإِنَّهُ لَيَسِيرٌ عَلَى مَن يَسَّرَهُ اللهُ عَلَيهِ: تَعْبُدَ اللهَ وَلاَ تُشْرِكُ بِهِ شَيْئًا، وَتُقِيمُ الصَّلاَةَ، وَتُؤْتِي الزَّكَاةَ، وَتَصُومُ رَمَضَانَ، وَتَحَجُّ الْبَيْتَ، ثُمَّ قَالَ: أَلاَ أَدُلُّكَ عَلَى أَبْوَابِ الْخَيْرِ؟ الصَّوْمُ جُنَّةٌ، والصَّدّقَةُ تُطْفِئُ الْخَطِيئَةَ كَمَا يُطْفِئُ الْمَاءُ النَّارَ، وَصَلاَةُ الرَّجُلِ فِي جَوْفِ اللَّيْلِ, قَالَ: ثُمَّ تَلاَ (تَتَجَافَى جُنُوبُهُمْ عَنِ الْمَضَاجِع )حَتَّى بَلَغَ (يَعْمَلُونَ) ثُمَّ قَالَ : (أَلاَ أُخْبِرُكَ بِرَأْسِ الأَمْرِ كُلِّهِ وَعَمُودِهِ وَذِرْوَةِ سَنَامِهِ؟ قُلْتُ: بَلَى يَا رَسُولَ اللهِ. قَالَ: رَأْسُ الأَمْرِ الإِسْلاَمُ, وَعَمُوْدُهُ الصَّلاَةُ, وَذِرْوَةُ سَنَامِهِ الْجِهَادُ. ثُمَّ قَالَ: أَلاَ أُخْبِرُكَ بِمَلاَكِ ذَلِكَ كُلِّهِ؟ قُلْتُ: بَلَى يَا نَبِيَّ اللهِ، فَأَخَذَ بِلِسَانِهِ وَقَالَ: كُفَّ عَلَيْكَ هَذَا. فَقُلْتُ : يَا نَبِيَّ اللهِ, وَإِنَّا لَمُؤَاخَذُوْنَ بِمَا نَتَكَلًّمُ بِهِ؟ فَقَالَ : ثَكِلَتْكَ أُمُّكَ يَا مُعَاذُ، وَهَلْ يُكَبُّ النَّاسُ فِي النَّارِ عَلَى وُجُوهِهِمْ أَوْ عَلَى مَنَاخِرِهِمْ إِلاَّ حَصَائِدُ أَلْسِنَتِهِمْ؟ رَوَاهُ التِّرْمِذِيُّ وَقَالَ: حَدِيْثٌ حَسَنٌ صَحِيْحٌ .""",
+  translation: """Dari Muadz bin Jabal radhiyallahu ‘anhu dia berkata: Aku berkata:” Wahai Rasulullah shallallahu ‘alaihi wa sallam, beritahukanlah kepadaku amalan yang dapat memasukkanku ke dalam surga dan menjauhkanku dari neraka! Beliau shallallahu ‘alaihi wa sallam bersabda: ”Sungguh engkau telah bertanya tentang sesuatu yang besar, namun sungguh hal tersebut sangatlah mudah dikerjakan bagi yang dimudahkan  Allah, yaitu engkau hanya beribadah pada Allah subhanahu wa ta’ala semata dan tidak menyekutukanNya dengan sesuatu apapun, menegakkan shalat, menunaikan zakat, berpuasa pada bulan Ramadhan dan menunaikan ibadah haji.” Kemudian beliau shallallahu ‘alaihi wa sallam melanjutkan: ”Maukah aku tunjukkan kepadamu pintu-pintu kebaikan? Puasa itu adalah tameng, sedekah itu memadamkan(menghapuskan) kesalahan seperti air memadamkan api dan shalatnya seseorang pada tengah malam. Lalu beliau membaca: “Lambung-lambung mereka jauh dari tempat tidurnya.” (QS. As Sajdah : 16) Sampai pada firman-Nya: “Yang telah mereka kerjakan.” Kemudian beliau shallallahu ‘alaihi wa sallam kembali bersabda: “Maukah engkau aku beritahu pokok urusan agama ini, tiangnya dan puncak tertingginya?” Aku mengatakan: ‘Tentu, wahai Rasulullah. Beliau shallallahu ‘alaihi wa sallam melanjutkan: “Pokok segala urusan adalah Islam, tiangnya adalah shalat dan puncak tertingginya adalah jihad.” Kemudian beliau shallallahu ‘alaihi wa sallam berkata: “Maukah aku beritahu tentang sesuatu yang bisa menguatkan semua itu?” Aku menjawab: ‘Tentu, wahai Nabi Allah.’ Maka Beliau shallallahu ‘alaihi wa sallam memegang lisannya(lidahnya) dan bersabda: “Tahanlah(jagalah) ini!” Aku bertanya: ”Wahai Nabi Allah, apakah kita akan disiksa disebabkan apa yang kita ucapkan?” Beliau shallallahu ‘alaihi wa sallam bersabda: ”Alangkah sedihnya ibumu kehilanganmu wahai Muadz, bukankah manusia itu dilemparkan ke dalam neraka dengan wajah tersungkur tidak lain disebabkan hasil panen (apa yang mereka peroleh) dari lisan-lisan mereka?” (HR. At Tirmdzi, dan dia berkata bahwa hadits ini hasan shahih)
+
+Telah lewat takhrij haditsnya.""",
+  explanation: """Hadist ini merangkum amalan utama untuk masuk surga dan selamat dari neraka. Kunci utamanya adalah mentauhidkan Allah dan menjalankan Rukun Islam. Selain itu, terdapat pintu-pintu kebaikan penyempurna, yakni puasa, sedekah penghapus dosa, dan shalat malam.
+
+Agama ini diibaratkan dengan Islam sebagai pokoknya, shalat sebagai tiangnya, dan jihad sebagai puncaknya. Namun, hal terpenting yang menjadi kunci penguat seluruh amal tersebut adalah kewajiban menjaga lisan, karena perkataan yang tidak dijagalah yang paling banyak menjerumuskan manusia ke dalam api neraka.""",
+),
+
+Hadith(
+  id: 30,
+  title: """Ketetapan Allah""",
+  arab: """
+عَنْ أَبِيْ ثَعْلَبَةَ الخُشَنِيِّ جُرثُومِ بنِ نَاشِرٍ رضي الله عنه عَن رَسُولِ اللهِ صلى الله عليه وسلم قَالَ: (إِنَّ اللهَ فَرَضَ فَرَائِضَ فَلاَ تُضَيِّعُوْهَا، وَحَدَّ حُدُودَاً فَلاَ تَعْتَدُوْهَا وَحَرَّمَ أَشْيَاءَ فَلاَ تَنْتَهِكُوْهَا، وَسَكَتَ عَنْ أَشْيَاءَ رَحْمَةً لَكُمْ غَيْرَ نِسْيَانٍ فَلا تَبْحَثُوْا عَنْهَا) رَوَاهُ الدَّارُقُطْنِيّ وَغَيْرُهُ.""",
+  translation: """Dari Abu Tsa’labah Al Khusyani Jurtsum bin Nasyir radhiyallahu ‘anhu dari rasulullah shallallahu ‘alaihi wa sallam, beliau shallallahu ‘alaihi wa sallam bersabda: ”Sesungguhnya Allah telah menetapkan berbagai kewajiban, maka janganlah kalian menyia-nyiakan kewajiban itu. Dia telah menetapkan batasan-batasan hukum maka janganlah kalian melampuinya. Dia telah mengharamkan beberapa hal maka janganlah kalian melanggarnya. Dan Allah subhanahu wa ta’ala juga mendiamkan beberapa perkara sebagai bentuk rahmat (kasih sayang) bagi kalian bukan karena lupa, maka janganlah kalian membahasnya(mencari–cari hukumnya).“ ( HR. Ad Daruquthni dan lainnya )
+
+Diriwayatkan oleh Ad Daruquthni dalam Sunannya, At Thabrani dalam Al Kabir dan dalam Musnad Asy Syamiyyin, Abu Nu`aim dalam Al Hilyah, Al Hakim dalam Al Mustadrak dan Al Baihaqi dalam Al Kubra.""",
+  explanation: """Hadist ini merangkum pedoman utama dalam beragama, yaitu keharusan melaksanakan seluruh kewajiban dari Allah tanpa menyia-nyiakannya dan menjauhi segala hal yang diharamkan. Kita juga diwajibkan untuk mematuhi batas-batas hukum syariat tanpa bersikap berlebih-lebihan. Selain itu, kita dilarang mempersulit diri dengan mencari-cari hukum pada perkara yang sengaja didiamkan oleh syariat. Perkara yang didiamkan tersebut murni merupakan bentuk kasih sayang dan keringanan dari Allah, bukan karena Dia lupa.""",
+),
+
+Hadith(
+  id: 31,
+  title: """Perintah Zuhud""",
+  arab: """
+عَنْ أَبي العَباس سَهلٍ بنِ سَعدِ السَّاعِدي رضي الله عنه قَالَ: أتى النَّبِيَّ صلى الله عليه وسلم رَجُلٌ فَقَالَ: يَا رَسُوْلَ اللهِ: دُلَّنِيْ عَلَى عَمَلٍ إِذَا عَمِلتُهُ أَحَبَّنِيَ اللهُ، وَأَحبَّنِيَ النَاسُ؟ فَقَالَ رسول الله صلى الله عليه وسلم: (ازْهَدْ فِي الدُّنيَا يُحِبَّكَ اللهُ، وازْهَدْ فيْمَا عِنْدَ النَّاسِ يُحِبَّكَ النَّاسُ) حَدِيْثٌ حَسَنٌ رَوَاهُ ابْنُ مَاجَه وَغَيْرُهَ بِأَسَانِيْدَ حَسَنَةٍ.""",
+  translation: """Dari Abul Abbas Sahl bin Sa’ad As-Sa’idi radhiyallahu ‘anhu, ia berkata: Seseorang telah datang kepada nabi shallallahu ‘alaihi wa sallam  lalu mengatakan: Wahai Rasulullah, tunjukkanlah kepadaku sebuah amalan yang apabila aku mengamalkannya Allah subhanahu wa ta’ala dan manusia mencintaiku maka beliau shallallahu ‘alaihi wa sallam menjawab: ”Bersikaplah zuhud terhadap dunia, niscaya Allah subhanahu wa ta’ala akan mencintaimu dan bersikaplah zuhud engkau terhadap apa yang ada pada manusia niscaya mereka akan mencintaimu.” ( Hadits hasan. Diriwayatkan oleh Ibnu Majah dan selainnya dengan sanad yang hasan )
+
+Diriwayatkan oleh Ibnu Majah, Ath Thabrani dalam al Kabir, Abu Nu’aim dalam al Hilyah dan Al Baihaqi dalam Syu’abul Iman.""",
+  explanation: """Hadist ini memberikan panduan ringkas tentang cara meraih kecintaan Allah sekaligus kecintaan dari sesama manusia. Kuncinya adalah dengan menerapkan sikap zuhud dalam kehidupan. Untuk meraih cinta Allah, kita dituntut zuhud terhadap dunia, yakni tidak terlalu terikat pada kemewahan duniawi dan tidak menjadikannya tujuan utama yang melalaikan akhirat. Sementara itu, untuk meraih cinta manusia, kita harus zuhud terhadap apa yang dimiliki oleh orang lain, yakni dengan tidak mengharapkan, meminta-minta, atau merasa iri terhadap harta mereka. Sikap merasa cukup dan tidak serakah terhadap milik orang lain inilah yang akan melahirkan rasa hormat dan kasih sayang dari sesama.""",
+),
+
+Hadith(
+  id: 32,
+  title: """Larangan Berbuat Bahaya""",
+  arab: """
+عنْ أَبِيْ سَعِيْدٍ سَعْدِ بنِ مَالِكٍ بْنِ سِنَانٍ الخُدْرِيِّ رضي الله عنه أَنَّ رَسُولَ اللهِ صلى الله عليه وسلم قَالَ: (لاَ ضَرَرَ وَلاَ ضِرَارَ) حَدِيْثٌ حَسَنٌ رَوَاهُ ابْنُ مَاجَه، وَالدَّارَقُطْنِيّ وَغَيْرُهُمَا مُسْنَدًا، وَرَوَاهُ مَالِكٌ في الْمُوَطَّأِ مُرْسَلاً عَنْ عَمْرٍو بْنِ يَحْيَى عَنْ أَبِيْهِ عَنِ النَّبِيِّ صلى الله عليه وسلم فَأَسْقَطَ أَبَا سَعِيْدٍ، وَلَهُ طُرُقٌ يُقَوِّي بَعْضُهَا بَعْضَاً.""",
+  translation: """Dari Abu Said Sa’ad bin Malik bin Sinan Al Khudry radhiyallahu ‘anhu, bahwa Rasulullah shallallahu ‘alaihi wa sallam bersabda: ”Tidak boleh melakukan sesuatu yang berbahaya dan menimbulkan bahaya bagi orang lain.” (Hadits hasan diriwayatkan oleh Ibnu Majah,  Ad Daruquthni dan lainnya dengan sanad bersambung. Diriwayatkan juga oleh Malik  dalam Al Muwatha’ dari Amr bin Yahya dari ayahnya dari Nabi shallallahu ‘alaihi wa sallam secara mursal karena menggugurkan(tidak menyebutkan) Abu Sa’id. Hadits ini memiliki beberapa jalan yang saling menguatkan).
+
+Diriwayatkan oleh Ibnu Majah.""",
+  explanation: """Hadist ini merupakan salah satu kaidah dan prinsip paling dasar dalam hukum Islam yang melarang segala bentuk tindakan yang dapat merugikan, baik bagi diri sendiri maupun orang lain. Islam sangat menjunjung tinggi keselamatan, kesejahteraan, dan kedamaian masyarakat. Oleh karena itu, kita dilarang keras memulai perbuatan yang menimbulkan kerusakan (mudharat) ataupun membalas kerugian orang lain dengan cara yang sama-sama menimbulkan bahaya baru. Segala sesuatu yang membawa dampak buruk dalam kehidupan pribadi maupun sosial harus dicegah dan dihilangkan.""",
+),
+
+Hadith(
+  id: 33,
+  title: """Bukti dalam Tuntutan""",
+  arab: """
+عَنِ ابْنِ عَبَّاسٍ رَضِيَ اللهُ عَنْهُمَا أَنَّ رَسُولَ اللهِ صلى الله عليه وسلم قَالَ: “لَوْ يُعْطَى النَّاسُ بِدَعْوَاهُمْ لاَدَّعَى رِجَالٌ أَمْوَالَ قَومٍ وَدِمَاءَهُمْ، وَلَكِنِ البَيِّنَةُ عَلَى المُدَّعِي، وَاليَمِيْنُ عَلَى مَنْ أَنْكَرَ” حَدِيْثٌ حَسَنٌ رَوَاهُ اْلبَيْهَقِيّ وغيره هَكَذَا بَعْضُهُ فِيْ الصَّحِيْحَيْنِ.""",
+  translation: """Dari Ibnu ‘Abbas radhiyallahu ‘anhuma, bahwa Rasulullah shallallahu ‘alaihi wa sallam bersabda: ”Seandainya setiap orang diberikan(dikabulkan) sesuai dengan pengakuannya (tuntutannya) tentunya akan banyak orang yang menuntut harta dan darah suatu kaum. Akan tetapi bukti itu harus ditegakkan oleh orang yang menuntut dan sumpah itu wajib diberikan oleh orang yang mengingkari(tuduhan).” (Hadits hasan diriwayatkan oleh Al Baihaqi dan selainnya dengan lafazh seperti ini. Sebagian lafadznya terdapat dalam shahih Al Bukhari dan Muslim)
+
+Diriwayatkan oleh Al Baihaqi dan sebagiannya oleh Al Bukhari dan  Muslim.""",
+  explanation: """Hadist ini adalah prinsip dasar peradilan Islam untuk mencegah kezaliman akibat tuduhan palsu. Aturannya sangat jelas: pihak yang menuntut wajib mendatangkan bukti atas klaimnya. Sebaliknya, pihak tertuduh yang menolak tuntutan tersebut cukup bersumpah untuk membela diri jika penuntut tidak memiliki bukti.""",
+),
+
+Hadith(
+  id: 34,
+  title: """Menolak Kemungkaran""",
+  arab: """
+عَنْ أَبِيْ سَعيْدٍ الْخُدْرِيِّ رَضِيَ اللهُ عَنْهُ قَالَ: سَمِعْتُ رَسُوْلَ اللهِ صَلىَّ اللهُ عَلَيْهِ وَسَلَّمَ يَقُوْلُ: (مَنْ رَأَى مِنْكُمْ مُنْكَرًا فَلْيُغَيِّرْهُ بِيَدِهِ، فَإِنْ لَمْ يَسْتَطِعْ فَبِلِسَانِهِ، فَإِنْ لَمْ يَسْتَطعْ فَبِقَلبِهِ وَذَلِكَ أَضْعَفُ الإيْمَانِ) رَوَاهُ مُسْلِمٌ.""",
+  translation: """Dari Abu Sa’id Al Khudri radhiyallahu ‘anhu dia berkata: ‘Aku mendengar Rasulullah shallallahu ‘alaihi wa sallam bersabda: ”Barang siapa di antara kalian yang melihat kemungkaran, hendaknya dia ubah dengan tangannya (kekuasaannya). Kalau dia tidak mampu hendaknya dia ubah dengan lisannya dan kalau dia tidak mampu hendaknya dia ingkari dengan hatinya. Dan inilah selemah–lemahnya iman.” (HR. Muslim)
+
+Diriwayatkan oleh Muslim.""",
+  explanation: """Hadist ini menjelaskan kewajiban mencegah kemungkaran sesuai kemampuan melalui tiga tingkatan: mengubah dengan tangan (kekuasaan), dengan lisan (nasihat) jika tidak mampu bertindak, atau minimal mengingkarinya di dalam hati jika tidak mampu berucap. Mengingkari dengan hati merupakan wujud tingkatan iman yang paling lemah.""",
+),
+
+Hadith(
+  id: 35,
+  title: """Persaudaraan Muslim""",
+  arab: """
+عَنْ أَبِيْ هُرَيْرَةَ رضي الله عنه قَالَ: قَالَ رَسُوْلُ اللهِ صلى الله عليه وسلم: (لاَ تَحَاسَدُوْا، وَلاَتَنَاجَشُوْا، وَلاَ تَبَاغَضُوْا، وَلاَ تَدَابَرُوْا، وَلاَ يَبِعْ بَعْضُكُمْ عَلَى بَيْعِ بَعْضٍ، وَكُوْنُوْا عِبَادَ اللهِ إِخوَانَاً، الْمُسْلِمُ أَخُوْ الْمُسْلِمِ، لاَ يَظلِمُهُ، وَلاَ يَخْذُلُهُ، وَلاَ يَكْذِبُهُ، وَلايَحْقِرُهُ، التَّقْوَى هَاهُنَا – وَيُشِيْرُ إِلَى صَدْرِهِ ثَلاَثَ مَرَّاتٍ – بِحَسْبِ امْرِئٍ مِنَ الشَّرِّ أَنْ يَحْقِرَ أَخَاهُ الْمُسلِمَ، كُلُّ الْمُسْلِمِ عَلَى الْمُسْلِمِ حَرَامٌ دَمُهُ وَمَالُهُ وَعِرْضُهُ). رَوَاهُ مُسْلِمٌ""",
+  translation: """Dari Abu Hurairah radhiyallahu ‘anhu dia berkata, Rasulullah shallallahu ‘alaihi wa sallam bersabda: ”Janganlah kalian saling dengki, melakukan najasy, saling membenci, saling membelakangi dan sebagian dari kalian menjual apa yang dijual saudaranya. Jadilah kalian semua hamba–hamba Allah yang bersaudara. Seorang muslim adalah saudara bagi muslim yang lain, sehingga dia tidak boleh menzhaliminya, menghinanya, mendustakannya dan merendahkannya. Takwa itu letaknya di sini –sambil menunjuk ke dadanya sebanyak tiga kali– cukuplah seseorang itu dalam kejelekan selama dia merendahkan saudaranya sesama muslim. Setiap muslim terhadap muslim lainnya haram dan terjaga darah, harta dan kehormatannya.” (HR. Muslim)
+
+Diriwayatkan oleh Muslim.""",
+  explanation: """Hadist ini menegaskan prinsip persaudaraan sesama muslim dengan melarang segala sifat dan perbuatan yang merusaknya, seperti dengki, saling membenci, menipu, menzalimi, dan merendahkan orang lain. Takwa letaknya di dalam hati, dan setiap muslim diharamkan untuk menodai darah, harta, serta kehormatan saudara seimannya.""",
+),
+
+Hadith(
+  id: 36,
+  title: """Balasan Amal""",
+  arab: """
+عَنْ أَبِيْ هُرَيْرَةَ رضي الله عنه قال, قال رسول الله صلى الله عليه وسلم قَالَ: مَنْ نَفَّسَ عَنْ مُؤْمِنٍ كُرْبَةً مِنْ كُرَبِ الدُّنيَا نَفَّسَ اللهُ عَنْهُ كُرْبَةً مِنْ كُرَبِ يَوْمِ اْلقِيَامَةِ، وَمَنْ يَسَّرَ عَلَى مُعَسِّرٍ يَسَّرَ اللهُ عَلَيْهِ فِيْ الدُّنْيَا وَالآَخِرَةِ، وَمَنْ سَتَرَ مُسْلِمَاً سَتَرَهُ اللهُ فِيْ الدُّنْيَا وَالآخِرَةِ، وَاللهُ فِيْ عَوْنِ الْعَبْدِ مَا كَانَ الْعَبْدُ فِي عَوْنِ أَخِيْهِ، وَمَنْ سَلَكَ طَريقَاً يَلْتَمِسُ فِيْهِ عِلْماً سَهَّلَ اللهُ لَهُ بِهِ طَرِيْقاً إِلَى الْجَنَّةِ، وَمَا اجْتَمَعَ قَوْمٌ فِي بَيْتٍ مِنْ بُيُوْتِ اللهِ يَتْلُوْنَ كِتَابَ اللهِ وَيتَدَارَسُوْنَهَ بَيْنَهُمْ إِلاَّ نَزَلَتْ عَلَيْهِمُ السَّكِيْنَةُ وَغَشِيَتْهُمُ الرَّحْمَةُ وحَفَّتْهُمُ الْمَلاَئِكَةُ وَذَكَرَهُمُ اللهُ فِيْمَنْ عِنْدَهُ، وَمَنْ بَطَّأَ بِهِ عَمَلُهُ لَمْ يُسْرِعْ بهِ نَسَبُهُ .رَوَاهُ مُسْلِمٌ بِهَذَا اللَّفْظِ.""",
+  translation: """Dari Abu Hurairah radhiyallahu ‘anhu dia berkata: Rasulullah shallallahu ‘alaihi wa sallam bersabda: “Barangsiapa yang menghilangkan satu kesulitan seorang mukmin yang lain dari  kesulitannya di dunia, niscaya Allah akan menghilangkan darinya satu kesulitan pada hari kdiamat. Barangsiapa yang meringankan orang yang kesusahan (dalam hutangnya), niscaya Allah akan meringankan baginya (urusannya) di dunia dan akhirat. Barangsiapa yang menutupi aib seorang muslim, niscaya Allah akan menutupi aibnya di dunia dan akhirat. Dan Allah  akan senantiasa menolong hamba-Nya, selama hamba tersebut mau menolong saudaranya. Barangsiapa yang menempuh satu jalan untuk mencari ilmu, niscaya Allah akan memudahkan baginya jalan menuju surga. Tidaklah suatu kaum berkumpul di salah satu rumah dari rumah–rumah Allah (masjid), membaca kitabullah, saling mengajarkan di antara mereka, melainkan akan turun kepada mereka ketenangan, diliputi oleh rahmat dan dinaungi oleh para malaikat serta Allah akan menyebut–nyebut mereka di hadapan makhluk yang berada di sisiNya. Barangsiapa yang lambat dalam beramal, sungguh garis nasabnya tidak akan bisa membantunya.” (HR. muslim dengan lafazh ini)
+
+Diriwayatkan oleh Muslim.""",
+  explanation: """Hadist ini menegaskan bahwa balasan Allah setimpal dengan perbuatan hamba-Nya. Siapa yang menolong, meringankan beban, atau menutupi aib saudaranya, maka Allah akan membalasnya dengan kebaikan serupa di dunia dan akhirat. Hadist ini juga sangat menganjurkan umat Islam untuk menuntut ilmu serta mempelajari Al-Qur'an demi meraih kemudahan menuju surga, sekaligus menegaskan bahwa keselamatan akhirat ditentukan oleh amal saleh, bukan garis keturunan.""",
+),
+
+Hadith(
+  id: 37,
+  title: """Pahala Berlipat Ganda""",
+  arab: """
+عَن ابْنِ عَبَّاسٍ رَضِيَ اللهُ عَنْهُمَا عَنِ رسول الله صلى الله عليه وسلم فِيْمَا يَرْوِيْهِ عَنْ رَبِّهِ تَبَارَكَ وَتَعَالَى أَنَّهُ قَالَ: (إِنَّ الله كَتَبَ الْحَسَنَاتِ وَالسَّيئَاتِ ثُمَّ بَيَّنَ ذَلِكَ؛ فَمَنْ هَمَّ بِحَسَنَةٍ فَلَمْ يَعْمَلْهَا كَتَبَهَا اللهُ عِنْدَهُ حَسَنَةً كَامِلَةً، وَإِنْ هَمَّ بِهَا فَعَمِلَهَا كَتَبَهَا اللهُ عِنْدَهُ عَشْرَ حَسَنَاتٍ إِلَى سَبْعِمائَةِ ضِعْفٍ إِلىَ أَضْعَافٍ كَثِيْرَةٍ. وَإِنْ هَمَّ بِسَيِّئَةٍ فَلَمْ يَعْمَلْهَا كَتَبَهَا اللهُ عِنْدَهُ حَسَنَةً كَامِلَةً، وَإِنْ هَمَّ بِهَا فَعَمِلَهَا كَتَبَهَا اللهُ له سَيِّئَةً وَاحِدَةً) رَوَاهُ البُخَارِيُّ وَمُسْلِمٌ.""",
+  translation: """Dari Ibnu ‘Abbas radhiyallahu ‘anhuma dari Rasulullah, beliau bersabda tentang sesuatu yang beliau riwayatkan dari Rabbnya Tabaraka wa Ta’ala: “Sesungguhnya Allah menetapkan adanya kebaikan dan kejelekan, kemudian Dia menjelaskannya. Barangsiapa yang berniat untuk mengerjakan amal kebaikan namun belum terlaksana, maka Allah akan catat baginya satu kebaikan yang sempurna. Dan jika dia berniat untuk kebaikan dan mengerjakannya,  maka Allah akan catat baginya dengan 10 kebaikan hingga 700 kali lipat, bahkan sampai berlipat–lipat banyaknya. Sebaliknya, apabila dia berniat untuk mengerjakan amalan kejelekan namun belum terlaksana, maka Allah akan catat baginya satu kebaikan yang sempurna. Dan apabila dia berniat untuk kejelekan dan mengerjakannya, maka Allah akan mencatat baginya satu kejelekan saja.” (HR.  Al Bukhari dan Muslim)
+
+Diriwayatkan oleh al Bukhari dan Muslim.""",
+  explanation: """Hadist ini menunjukkan betapa besarnya rahmat dan kasih sayang Allah kepada hamba-Nya dalam pencatatan amal perbuatan. Niat baik yang baru direncanakan saja sudah bernilai satu pahala penuh, dan jika dikerjakan akan dilipatgandakan pahalanya dari 10 hingga 700 kali lipat bahkan lebih. Sebaliknya, niat buruk yang berhasil ditahan atau diurungkan justru dicatat sebagai satu kebaikan penuh, dan jika benar-benar dilakukan hanya dicatat sebagai satu keburukan (dosa) saja.""",
+),
+
+Hadith(
+  id: 38,
+  title: """Meraih Cinta Allah""",
+  arab: """
+عَنْ أَبِي هُرَيْرَةَ رضي الله عنه قَالَ: قَالَ رَسُولُ اللهِ صلى الله عليه وسلم: (إِنَّ اللهَ تَعَالَى قَالَ: مَنْ عَادَى لِي وَلِيَّاً فَقَدْ آذَنْتُهُ بِالحَرْبِ. وَمَا تَقَرَّبَ إِلِيَّ عَبْدِيْ بِشَيءٍ أَحَبَّ إِلِيَّ مِمَّا افْتَرَضْتُهُ عَلَيْهِ. ولايَزَالُ عَبْدِيْ يَتَقَرَّبُ إِلَيَّ بِالنَّوَافِلِ حَتَّى أُحِبَّهُ، فَإِذَا أَحْبَبتُهُ كُنْتُ سَمْعَهُ الَّذِيْ يَسْمَعُ بِهِ، وَبَصَرَهُ الَّذِيْ يُبْصِرُ بِهِ، وَيَدَهُ الَّتِي يَبْطِشُ بِهَا، وَرِجْلَهُ الَّتِي يَمْشِيْ بِهَا. وَلَئِنْ سَأَلَنِيْ لأُعطِيَنَّهُ، وَلَئِنْ اسْتَعَاذَنِيْ لأُعِيْذَنَّهُ) رَوَاهُ اْلبُخَارِيُّ""",
+  translation: """Dari Abu Hurairah radhiyallahu ‘anhu, dia berkata: ‘Rasulullah shallallahu ‘alaihi wa sallam bersabda: “Sesungguhnya Allah berfirman: ”Barangsiapa yang memusuhi wali-Ku, maka Aku menyatakan perang kepadanya. Tidaklah seorang hamba–Ku mendekatkan diri kepada–Ku dengan sesuatu yang lebih  Aku cintai daripada hal–hal yang telah Aku wajibkan baginya. Senantiasa hamba–Ku mendekatkan diri kepada–Ku dengan amalan–amalan nafilah (sunnah) hingga Aku mencintainya. Apabila Aku telah mencintainya maka Aku menjadi pendengarannya yang dia gunakan untuk mendengar, Aku menjadi penglihatannya yang dia gunakan untuk melihat, Aku menjadi tangannya yang dia gunakan untuk memegang  dan Aku menjadi kakinya yang dia gunakan untuk melangkah. Jika dia meminta kepada–Ku pasti Aku memberinya dan jika dia meminta perlindungan kepada–Ku pasti Aku akan melindunginya.” (HR. Al Bukhari)
+
+Diriwayatkan oleh al Bukhari.""",
+  explanation: """Hadist Qudsi ini menjelaskan bahwa cinta Allah diraih dengan menyempurnakan ibadah wajib dan memperbanyak amalan sunnah. Hamba yang dicintai-Nya akan senantiasa dibimbing dalam setiap perbuatannya, dikabulkan doanya, dan diberikan perlindungan. Sebaliknya, Allah akan memerangi siapa pun yang berani memusuhi para wali-Nya.""",
+),
+
+Hadith(
+  id: 39,
+  title: """Ampunan Kesalahan""",
+  arab: """عَنِ ابْنِ عَبَّاسٍ رَضِيَ اللهُ عَنْهُمَا أَنَّ رَسُولَ اللهِ صلى الله عليه وسلم قَال: (إِنَّ اللهَ تَجَاوَزَ لِي عَنْ أُمَّتِي الْخَطَأَ وَالنِّسْيَانَ وَمَا اسْتُكْرِهُوْا عَلَيْهِ) حَدِيْثٌ حَسَنٌ رَوَاهُ ابْنُ مَاجَه وَاْلبَيْهَقِيّ وَغَيْرُهُمَا.""",
+  translation: """Dari Ibnu Abbas radhiyallahu ‘anhuma bahwa Rasulullah shallallahu ‘alaihi wa sallam bersabda: “Sesungguhnya Allah membiarkan(mengampuni) kesalahan dari umatku akibat kekeliruan dan lupa serta keterpaksaan.” (Hadits Hasan diriwayatkan oleh Ibnu Majah dan Al Baihaqi serta selain keduanya)
+
+Diriwayatkan oleh Ibnu Majah, Ibnu Hibban dalam Shahihnya, Ath Thabrani dalam al Kabir, Al Hakim dalam al Mustadrak, Ad Daruquthni dalam Sunannya dan Al Baihaqi dalam al Kubra.""",
+  explanation: """Hadist ini menunjukkan betapa luasnya rahmat dan kasih sayang Allah kepada umat Islam dengan memberikan keringanan hukum. Allah tidak akan menghukum atau mencatat dosa bagi seseorang yang berbuat salah dalam tiga keadaan: karena murni ketidaksengajaan (keliru), karena lupa, atau karena berada dalam kondisi terpaksa (di bawah ancaman). Hal ini sekaligus menegaskan bahwa ajaran Islam sangat toleran dan tidak membebani hamba-Nya di luar batas kemampuan.""",
+),
+
+Hadith(
+  id: 40,
+  title: """Musafir di Dunia""",
+  arab: """
+عَنِ ابْنِ عُمَرَ رَضِيَ اللهُ عَنْهُمَا قَالَ: أَخَذَ رَسُولُ اللهِ صلى الله عليه وسلم بِمنْكِبَيَّ فَقَالَ: (كُنْ فِي الدُّنْيَا كَأَنَّكَ غَرِيْبٌ أَوْ عَابِرُ سَبِيْلٍ) وَكَانَ ابْنُ عُمَرَ رَضِيَ اللهُ عَنْهُمَا يَقُوْلُ: إِذَا أَمْسَيْتَ فَلا تَنْتَظِرِ الصَّبَاحَ، وَإِذَا أَصْبَحْتَ فَلا تَنْتَظِرِ المَسَاءَ. وَخُذْ مِنْ صِحَّتِكَ لِمَرَضِكَ، وَمِنْ حَيَاتِكَ لمَوْتِكَ. رَوَاهُ الْبُخَارِيُّ.""",
+  translation: """Dari Ibnu Umar radhiyallahu ‘anhuma dia berkata: “Suatu hari Rasulullah shallallahu ‘alaihi wa sallam memegang kedua pundakku seraya bersabda: ”Jadilah engkau di dunia ini seperti orang asing atau pengembara”. Maka Ibnu ‘Umar radhiyallahu ‘anhuma menyatakan: “Jika engkau berada di sore hari janganlah engkau menunggu datangnya esok hari. Jika engkau berada di pagi hari, janganlah engkau menunggu datangnya sore hari. Pergunakanlah masa sehatmu untuk menghadapi masa sakitmu, dan masa hidupmu untuk menghadapi masa kematianmu.” (HR. Al Bukhari)
+
+Diriwayatkan oleh al Bukhari.""",
+  explanation: """Hadist ini mengajarkan agar kita menyikapi kehidupan dunia sekadar sebagai tempat persinggahan sementara layaknya seorang musafir. Kita diingatkan untuk tidak menunda-nunda amal kebaikan, serta senantiasa memanfaatkan waktu sehat dan sisa umur sebaik mungkin sebagai bekal menuju akhirat sebelum datangnya sakit dan kematian.""",
+),
+
+Hadith(
+  id: 41,
+  title: """Mengendalikan Nafsu""",
+  arab: """
+عَنْ أَبِيْ مُحَمَّدٍ عَبْدِ اللهِ بِنِ عمْرِو بْنِ العَاصِ رَضِيَ اللهُ عَنْهُمَا قَالَ: قَالَ رَسُولُ اللهِ صلى الله عليه وسلم : “لاَيُؤْمِنُ أَحَدُكُمْ حَتَّى يَكُونَ هَواهُ تَبَعَاً لِمَا جِئْتُ بِهِ” حَدِيْثٌ حَسَنٌ صَحِيْحٌ رَوَيْنَاهُ فِي كِتَابِ الحُجَّةِ بِإِسْنَادٍ صَحِيْحٍ.""",
+  translation: """“Dari Abu Muhammad Abdullah  bin Amr bin Al Ash radhiyallahu ‘anhuma, dia berkata: ”Rasulullah shallallahu ‘alaihi wa sallam bersabda: ”Tidaklah sempurna keimanan salah seorang di antara kalian hingga hawa nafsunya mau mengikuti apa yang aku bawa.” (Hadits hasan shahih, kami telah meriwayatkannya dari kitab Al Hujjah dengan sanad shahih)
+
+Diriwayatkan oleh Al Baghawi dalam Syarhus Sunnah.""",
+  explanation: """Hadist ini menegaskan bahwa kesempurnaan iman seorang muslim diukur dari kemampuannya menundukkan hawa nafsunya agar sepenuhnya patuh pada ajaran dan syariat yang dibawa oleh Rasulullah. Keimanan seseorang belum dianggap sempurna apabila keinginan pribadinya masih diutamakan atau bertentangan dengan tuntunan agama Islam.""",
+),
+
+Hadith(
+  id: 42,
+  title: """Ampunan Allah""",
+  arab: """
+عَنْ أَنَسِ بْنِ مَالِكٍ رضي الله عنه قَالَ: سَمِعْتُ رَسُولَ اللهِ صلى الله عليه وسلم يَقُولُ: قَالَ اللهُ تبارك و تَعَالَى: “يَا ابْنَ آَدَمَ إِنَّكَ مَا دَعَوْتَنِيْ وَرَجَوْتَنِيْ غَفَرْتُ لَكَ عَلَى مَا كَانَ فيك وَلا أُبَالِيْ، يَا ابْنَ آَدَمَ لَو بَلَغَتْ ذُنُوْبُكَ عَنَانَ السَّمَاءِ ثُمَّ اسْتَغْفَرْتَنِيْ غَفَرْتُ لَكَ و لا أبالي، يَا ابْنَ آَدَمَ إِنَّكَ لَوْ أَتَيْتَنِيْ بِقُرَابِ الأَرْضِ خَطَايَا ثُمَّ لقِيْتَنِيْ لاَتُشْرِكُ بِيْ شَيْئَاً لأَتَيْتُكَ بِقُرَابِهَا مَغفِرَةً” رَوَاهُ التِّرْمِذِيُّ وَقَالَ: حَدِيْثٌ حَسَنٌ صَحَيْحٌ.""",
+  translation: """Dari Anas bin Malik radhiyallahu ‘anhu dia berkata: ‘Aku mendengar Rasulullah shallallahu ‘alaihi wa sallam bersabda: “Allah berfirman: ”Wahai Bani Adam, sesungguhnya jika engkau senantiasa berdoa dan berharap kepada–Ku niscaya Aku akan mengampunimu semua dosa yang ada padamu dan Aku tidak peduli. Wahai anak Adam kalau seandainya dosamu setinggi langit, kemudian engkau memohon ampun kepada– Ku, niscaya aku akan memberikan ampunan kepadamu dan Aku tidak peduli. Wahai anak Adam seandainya engkau menghadap kepada–Ku dengan membawa dosa sepenuh bumi kemudian engkau berjumpa dengan–Ku dalam keadaan tidak menyekutukanKu dengan sesuatu apapun, niscaya Aku akan mendatangimu dengan ampunan sepenuh bumi pula.” (HR. At Tirmidzi, dan dia berkata bahwa hadits ini hasan shahih)
+
+Diriwayatkan oleh At Tirmidzi.""",
+  explanation: """Hadist Qudsi ini menunjukkan betapa luasnya ampunan Allah. Sebesar dan sebanyak apa pun dosa seorang hamba, Allah pasti akan mengampuninya asalkan ia mau berdoa, memohon ampun (istighfar), dan yang paling utama: tidak menyekutukan Allah (syirik) dengan sesuatu apa pun.""",
+),
+
 ];
