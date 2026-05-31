@@ -1,18 +1,40 @@
 import 'package:flutter/material.dart';
+import '../data/hadith_data.dart';
+import '../wigdets/hadith_card.dart';
 
-class SearchScreen extends StatelessWidget {
+class SearchScreen extends StatefulWidget {
   const SearchScreen({super.key});
 
   @override
+  State<SearchScreen> createState() =>
+      _SearchScreenState();
+}
+
+class _SearchScreenState
+    extends State<SearchScreen> {
+
+  String searchQuery = "";
+
+  @override
   Widget build(BuildContext context) {
+    final filtered = hadithList.where((h) {
+      return h.id.toString().contains(searchQuery) ||
+         h.title.toLowerCase().contains(
+           searchQuery.toLowerCase(),
+        );
+     }).toList();
     return Column(
       children: [
 
-        // SEARCH BAR
         Padding(
           padding: const EdgeInsets.all(16),
+           child: TextField(
+            onChanged: (value) {
+              setState(() {
+                searchQuery = value;
+              });
+            },
 
-          child: TextField(
             decoration: InputDecoration(
               hintText: "Cari hadits...",
 
@@ -42,61 +64,54 @@ class SearchScreen extends StatelessWidget {
           ),
         ),
 
-        const Spacer(),
+        Expanded(
+          child: searchQuery.isEmpty
+              ? Column(
+                    mainAxisAlignment:
+                        MainAxisAlignment.center,
+                    children: [
+                      Container(
+                        width: 120,
+                        height: 120,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color:
+                            const Color(0xFF1A1A1A),
+                    ),
 
-        // ICON TENGAH
-        Container(
-          width: 120,
-          height: 120,
+                    child: const Icon(
+                      Icons.search,
+                      size: 60,
+                      color: Colors.grey,
+                    ),
+                  ),
 
-          decoration: BoxDecoration(
-            shape: BoxShape.circle,
+                  const SizedBox(height: 24),
 
-            color: const Color(0xFF1A1A1A),
+                  const Text(
+                    "Belum ada hasil",
+                    style: TextStyle(
+                      fontSize: 28,
+                      fontWeight:
+                      FontWeight.bold,
+                    ),
+                  ),
+                ],
+              )
 
-            border: Border.all(
-              color: Colors.grey.shade800,
-            ),
-          ),
+           : ListView.builder(
+               itemCount: filtered.length,
+               itemBuilder:
+                   (context, index) {
 
-          child: const Icon(
-            Icons.search,
-            size: 60,
-            color: Colors.grey,
-          ),
-        ),
+                 return HadithCard(
+                   hadith:
+                       filtered[index],
+                   );
+                 },
+               ),
+             ),
 
-        const SizedBox(height: 24),
-
-        const Text(
-          "Belum ada hasil",
-
-          style: TextStyle(
-            fontSize: 28,
-            fontWeight: FontWeight.bold,
-          ),
-        ),
-
-        const SizedBox(height: 12),
-
-        const Padding(
-          padding: EdgeInsets.symmetric(
-            horizontal: 40,
-          ),
-
-          child: Text(
-            "Gunakan kata kunci untuk mencari hadits yang Anda inginkan.",
-
-            textAlign: TextAlign.center,
-
-            style: TextStyle(
-              color: Colors.grey,
-              fontSize: 16,
-            ),
-          ),
-        ),
-
-        const Spacer(),
       ],
     );
   }
