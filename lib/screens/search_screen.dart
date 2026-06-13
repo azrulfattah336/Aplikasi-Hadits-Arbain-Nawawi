@@ -36,7 +36,7 @@ class _SearchScreenState
             },
 
             decoration: InputDecoration(
-              hintText: "Cari hadits...",
+              hintText: "Cari nomor, judul, atau isi hadits...",
 
               prefixIcon: const Icon(
                 Icons.search,

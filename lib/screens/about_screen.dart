@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'privacy_screen.dart';
 
 class AboutScreen extends StatelessWidget {
   const AboutScreen({super.key});
@@ -99,6 +100,36 @@ class AboutScreen extends StatelessWidget {
                 subtitle: Text("Azrul Fattah"),
               ),
             ),
+
+            Card(
+              color: const Color(0xFF1A1A1A),
+
+              child: ListTile(
+                leading: const Icon(
+                  Icons.privacy_tip_outlined,
+                  color: Colors.greenAccent,
+                ),
+
+                title: const Text(
+                  "Kebijakan Privasi",
+                ),
+
+                trailing: const Icon(
+                  Icons.arrow_forward_ios,
+                ),
+
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) =>
+                          const PrivacyScreen(),
+                  ),
+                );
+
+              },
+            ),
+           ),
           ],
         ),
       ),
