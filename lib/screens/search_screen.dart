@@ -44,6 +44,22 @@ class _SearchScreenState
 
               filled: true,
               fillColor: const Color(0xFF1A1A1A),
+              focusedBorder:
+                OutlineInputBorder(
+                  borderRadius:
+                      BorderRadius.circular(
+                      40),
+
+                  borderSide:
+                      const BorderSide(
+                  color:
+                      Color(
+                    0xFF00E5A8,
+                  ),
+
+                  width: 2,
+                ),
+              ),
 
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(40),

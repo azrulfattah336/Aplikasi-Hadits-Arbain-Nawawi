@@ -19,9 +19,18 @@ class HadithCard extends StatelessWidget {
   ),
 
   child: InkWell(
-    borderRadius: BorderRadius.circular(20),
+  borderRadius:
+      BorderRadius.circular(20),
 
-    onTap: () {
+  splashColor:
+      Colors.greenAccent
+          .withOpacity(0.2),
+
+  highlightColor:
+      Colors.greenAccent
+          .withOpacity(0.05),
+
+  onTap: () {
       Navigator.push(
         context,
         MaterialPageRoute(
