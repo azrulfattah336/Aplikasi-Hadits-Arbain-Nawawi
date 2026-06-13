@@ -3,6 +3,7 @@ import '../data/hadith_data.dart';
 import '../wigdets/hadith_card.dart';
 import '../services/bookmark_service.dart';
 import 'search_screen.dart';
+import 'about_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -56,8 +57,26 @@ class _HomeScreenState extends State<HomeScreen> {
               : selectedIndex == 1
               ? "Search"
               : "Bookmark",
-        ),
-      ),
+         ),
+
+         actions: [
+           IconButton(
+             icon: const Icon(
+                Icons.info_outline,
+             ),
+
+             onPressed: () {
+               Navigator.push(
+                 context,
+                 MaterialPageRoute(
+                   builder: (_) =>
+                       const AboutScreen(),
+                 ),
+               );
+             },
+           ),
+         ],
+       ),
 
       body: selectedIndex == 0
           ? Column(
