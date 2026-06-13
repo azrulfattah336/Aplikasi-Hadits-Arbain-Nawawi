@@ -29,10 +29,28 @@ class _DetailScreenState extends State<DetailScreen> {
   }
 
   void toggleBookmark() async {
-    await BookmarkService.toggleBookmark(widget.hadith.id);
+  await BookmarkService.toggleBookmark(widget.hadith.id);
 
-    loadBookmark();
-  }
+  bool result =
+      await BookmarkService.isBookmarked(widget.hadith.id);
+
+  setState(() {
+    isFavorite = result;
+  });
+
+
+  ScaffoldMessenger.of(context).showSnackBar(
+    SnackBar(
+      content: Text(
+        result
+            ? "✓ Ditambahkan ke bookmark"
+            : "✓ Dihapus dari bookmark",
+      ),
+
+      duration: const Duration(seconds: 2),
+    ),
+  );
+}
 
   @override
 Widget build(BuildContext context) {
