@@ -12,8 +12,8 @@ class AboutScreen extends StatelessWidget {
           "Tentang Aplikasi",
         ),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(24),
+      body: SingleChildScrollView(
+        child: Padding(padding: const EdgeInsets.all(24),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
@@ -21,7 +21,6 @@ class AboutScreen extends StatelessWidget {
               height: 30,
             ),
             
-            // --- BAGIAN LOGO YANG DIUBAH ---
             Container(
               width: 100,
               height: 100,
@@ -32,7 +31,7 @@ class AboutScreen extends StatelessWidget {
                   color: Colors.grey.shade800,
                 ),
               ),
-              // Menggunakan ClipOval agar gambar terpotong bulat menyesuaikan Container
+              
               child: ClipOval(
                 child: Image.asset(
                   "images/logo.png", // Path ke logo buatanmu
@@ -59,10 +58,18 @@ class AboutScreen extends StatelessWidget {
             ),
             
             const Text(
-              "Aplikasi untuk membaca, "
-              "mencari, dan menyimpan "
-              "hadits favorit.",
-              textAlign: TextAlign.center,
+               """
+Adalah aplikasi yang menyediakan kumpulan Hadits Arbain Nawawi untuk memudahkan pengguna membaca, memahami, dan menyimpan hadits pilihan.
+
+Aplikasi ini dibuat sebagai media pembelajaran dan referensi pribadi.
+
+Konten hadits bersumber dari kitab Hadits Arbain Nawawi karya Imam An-Nawawi. Aplikasi ini tidak berafiliasi secara resmi dengan penerbit atau lembaga tertentu.
+
+Hak cipta:
+- Tampilan, desain, dan kode aplikasi dibuat oleh pengembang.
+- Teks hadits merupakan bagian dari karya keilmuan Islam klasik.
+- Jika terdapat kesalahan data atau informasi, silakan hubungi pengembang.""",
+              textAlign: TextAlign.start,
               style: TextStyle(
                 color: Colors.grey,
                 fontSize: 16,
@@ -132,6 +139,7 @@ class AboutScreen extends StatelessWidget {
            ),
           ],
         ),
+      ),
       ),
     );
   }

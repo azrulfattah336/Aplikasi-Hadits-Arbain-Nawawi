@@ -24,11 +24,11 @@ class HadithCard extends StatelessWidget {
 
   splashColor:
       Colors.greenAccent
-          .withOpacity(0.2),
+          .withValues(alpha:0.2),
 
   highlightColor:
       Colors.greenAccent
-          .withOpacity(0.05),
+          .withValues(alpha:0.05),
 
   onTap: () {
       Navigator.push(

@@ -13,6 +13,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+
   int selectedIndex = 0;
   bool showAllHadith = false;
   String searchQuery = "";
@@ -148,8 +149,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                 end: Alignment.bottomRight,
 
                                 colors: [
-                                  Colors.black.withOpacity(0.7),
-                                  Colors.black.withOpacity(0.3),
+                                  Colors.black.withValues(alpha:0.7),
+                                  Colors.black.withValues(alpha:0.3),
                                 ],
                               ),
                             ),
